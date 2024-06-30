@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aacb1f6f-5a6f-43e1-ad30-604505650303" name="Changes" comment="update">
+    <list default="true" id="aacb1f6f-5a6f-43e1-ad30-604505650303" name="Changes" comment="final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/banquets/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/banquets/swiper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/contactstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/contactstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/customcakestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/customcakestyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mainstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/mainstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/banquets.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/banquets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/banquetsEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/banquetsEng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contactEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contactEng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/customcake.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customcake.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/customcakeEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customcakeEng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mainEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainEng.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +114,7 @@
       <workItem from="1719724000135" duration="4764000" />
       <workItem from="1719734293476" duration="1260000" />
       <workItem from="1719746879797" duration="4593000" />
-      <workItem from="1719764955118" duration="4829000" />
+      <workItem from="1719764955118" duration="7050000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <option name="closed" value="true" />
@@ -163,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719765757564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final">
+      <option name="closed" value="true" />
+      <created>1719769929274</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719769929274</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +177,7 @@
     <MESSAGE value="comm" />
     <MESSAGE value="Start" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>
