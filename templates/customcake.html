@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'customcakestyle.css' %}">
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    <link rel="stylesheet" href="../static/customcakestyle.css">
+    <link rel="stylesheet" href="../static/base.css">
+    <title>LIMONCELLO</title>
+</head>
+<body>
+
+<header>
+        <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
+
+        <div class="head">
+            <a href="{% url 'main' %}"><div class="btn a font_Robot">О ресторане</div></a>
+            <a href="{% url 'menu' %}"><div class="btn b font_Robot">Меню</div></a>
+            <a href="{% url 'banquets' %}"><div class="btn c font_Robot">Банкеты</div></a>
+            <a href="{% url 'customcake' %}"><div class="btn d font_Robot">Торты на заказ</div></a>
+            <a href="#contacts"><div class="btn e font_Robot">Контакты</div></a>
+            <a href="{% url 'contact' %}"><div class="btn f font_Robot">Обратная связь</div></a>
+        </div>
+
+        <div class="ikon">
+            <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
+            <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
+            <div class="language">
+                <img src="../static/img/language.svg" class="btn icon">
+                <div class="arr">
+                    <img src="../static/img/arrow.svg" class="btn">
+                </div>
+                <div class="russ">
+                    <a href="{% url 'customcakeEng' %}"><img src="../static/img/rus.svg" class="btn icon rus"> </a>
+                </div> 
+            </div>
+        </div>
+
+        <img class="yge" src="../static/img/yellow graphic element.svg" alt="yellow">
+</header>
+
+<main>
+    <div class="blackout"></div>
+
+
+      <img class="green9" src="../static/img/green leaf element 9.svg" alt="green9">
+
+
+
+        <div class="content">
+            <img class="cake" src="../static/img/cake image.svg" alt="cake">
+            <div class="box">
+                <h2>Сделай свой праздник незабываемым</h2>
+                <p class="box_1_1">с тортами от кондитерской Limoncello</p>
+                <a href="https://wa.me/79147073443"><div class="btn_z"><p>Заказать Торт</p></div></a>
+
+            </div>
+        </div>
+
+        <div class="content_1" id="contacts">
+            <img class="green2" src="../static/img/green leafs elements.svg" alt="green2">
+            <div class="box_1 font_Robot">
+            <p class="font_Robot font_size">Наши особенные торты на заказ </p>
+            <p class="font">Уникальный дизайн, великолепный вкус и натуральные ингредиенты – основа тортов и десертов кондитерской Limoncello.
+                Наши кондитеры помогут воплотить любую идею и создать для вашего праздника торт с эксклюзивным составом и уникальным оформлением.</p>
+                <div class="box_none">
+    
+                    <div class="disc"></div>
+                    <div class="text_1"><p>Заказы оформляются предварительно, минимум за 2 дня до торжества.</p></div>
+    
+                    <div class="disc"></div>
+                    <div class="text_2"><p>Окончательная стоимость готового торта зависит от сложности его оформления. Уточнить детали и сделать заказ можно по номеру 8 (914) 707-34-43.</p></div>
+                     <a href="https://wa.me/79147073443"><div class="btn_w"><p>Написать в Whatsapp</p></div></a>
+
+                </div>
+                <img class="cake_1" src="../static/img/cake image 2.svg" alt="cake">
+              
+            </div>
+            <img class="vector" src="../static/img/Vector.svg" alt="Vector">
+        </div>
+</main>
+  
+
+
+
+
+<footer>
+
+        <div class="content_6">
+            <div class="hrr"><hr>
+            <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
+                <div class="box_4">
+                    <a href="{% url 'main' %}"><div class="btn a font_Robot">О ресторане</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b font_Robot">Меню</div></a>
+                    <a href="{% url 'banquets' %}"><div class="btn c font_Robot">Банкеты</div></a>
+                    <a href="{% url 'customcake' %}"><div class="btn d font_Robot">Торты на заказ</div></a>
+                </div>
+                <a href="{% url 'contact' %}"><div class="btn_4 font_Robot"><p>Обратная связь</p></div></a>
+            </div>
+        </div>
+
+
+        <div class="box_3">
+            <div class="cop"><p>2016 - 2024 © Limoncello</p></div>  
+            <div class="pol"><p>Политика конфиденциальности</p></div>
+            <div class="box_2 font_Robot">
+                <a href="https://www.instagram.com/limoncellovl/"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="btn iicon" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M17.5 6.5H17.51" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></a>
+                <a href="https://wa.me/79147073443">
+                    <svg width="24" height="24" viewBox="0 0 24 24" stroke="white" Stroke-width="10%" fill="none" class="btn iicon" xmlns="http://www.w3.org/2000/svg">
+                      <path class="baa" d="M8.3114 10.8262L10.0114 9.11508L9.56697 7.55951H7.55584C7.55584 7.55951 7.10028 10.3818 10.3559 13.6262C13.6114 16.8707 16.4448 16.4485 16.4448 16.4485V14.4373L14.8892 13.9929L13.1781 15.6929M21.8671 13.6262C21.611 15.1818 20.9908 16.6548 20.057 17.9251C19.1232 19.1953 17.9023 20.2268 16.4939 20.9353C15.0856 21.6438 13.5297 22.0093 11.9531 22.0019C10.3766 21.9946 8.82419 21.6146 7.4225 20.893L2.00023 22.0041L3.11135 16.5818C2.38619 15.175 2.00532 13.6161 2.00006 12.0333C1.99479 10.4506 2.36529 8.88922 3.08108 7.47758C3.79687 6.06594 4.83751 4.84437 6.11743 3.9133C7.39736 2.98223 8.88 2.36827 10.4435 2.1219C12.0069 1.87553 13.6065 2.00378 15.1107 2.49611C16.615 2.98844 17.9808 3.83079 19.0961 4.95389C20.2113 6.077 21.044 7.44877 21.5257 8.95643C22.0075 10.4641 22.1244 12.0645 21.8671 13.6262Z" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <img class="green5" src="../static/img/green leaf element(4).svg" alt="green5">
+        <img class="vector1" src="../static/img/Vector(2).png" alt="vector1">
+</footer>
+
+</body>
+</html>

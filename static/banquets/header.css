@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 5183px;
+}
+
+/* text and button */
+.txt-header{
+    position: absolute;
+    width: 657px;
+    height: 323px;
+    left: 910px;
+    right: 273px;
+    top: 260px;
+    bottom: 4784px;
+}
+
+.txt-header h1{
+    position: relative;
+    width: 557px;
+    height: 106px;
+    left: 0;
+    right: -610px;
+    top: 0;
+    bottom: -149px;
+    color: rgb(15, 15, 15);
+    font-family: Noto Sans;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txt-header h3{
+    position: relative;
+    width: 550px;
+    height: 50px;
+    left: 0;
+    right: -885px;
+    top: 0;
+    bottom: -197px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-left{
+    position: relative;
+    width: 188px;
+    height: 49px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px 10px 28px;
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+    border: none;
+}
+
+.btn2{
+    display: flex;
+    margin-top: 50px
+}
+
+.btn-right{
+    position: relative;
+    width: 203px;
+    height: 49px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px 10px 28px;
+    box-sizing: border-box;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 2px;
+    margin-left: 25px;
+    background-color:  white;
+}
+
+.btn-right h1{
+    /* Банкетное меню */
+    position: static;
+    width: 155px;
+    height: 29px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px 10px 28px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.btn-left h1{
+    /* Узнать больше */
+    position: static;
+    width: 150px;
+    height: 29px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px 10px 28px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+/* img */
+.banq{
+    position: absolute;
+    width: 653px;
+    height: 855px;
+    left: -13px;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+}
+
+.line-header{
+    position: absolute;
+    width: 120px;
+    height: 855px;
+    left: 580px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+/* listya */
+.listya{
+    position: absolute;
+    width: 400px;
+    height: 254px;
+    left: 1413px;
+    right: 27px;
+    top: 594px;
+    bottom: 4485px;
+}
+
+.left-list{
+    position: relative;
+    width: 202.63px;
+    height: 209.62px;
+}
+
+.right-list{
+    position: relative;
+    width: 160.11px;
+    height: 167.25px;
+}
+
+/* yellow-header */
+.yellow-header{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 1600px;
+    right: -585.72px;
+    top: 0px;
+    bottom: 4327.76px;
+    float:right
+}
+
+
+/* logo */
+.logo{
+    position: absolute;
+    width: 111px;
+    height: 56px;
+    left: 130px;
+    right: 1259px;
+    top: 17px;
+    bottom: 17px;
+}
+
+
+/* menu */
+.menu{
+    position: absolute;
+    width: 746px;
+    height: 18px;
+    left: 407px;
+    right: 447px;
+    top: 36px;
+    bottom: 36px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+/* media and language */
+.social {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 1400px;
+  right: 70px;
+  top: 33px;
+  bottom: 33px;
+}
+
+.Inst {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 0;
+  right: 93px;
+  top: 0;
+  bottom: 0;
+}
+
+.Whats {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 20px;
+  right: 53px;
+  top: 0;
+  bottom: 0;
+}
+
+.Language {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+    left: 80px;
+    right: 13px;
+    top: 0px;
+    bottom: 3px;
+}
+
+.Language:hover .RU{
+    visibility: visible;
+}
+
+.Lang {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 20px;
+}
+
+.RU {
+  background: none;
+  visibility: hidden;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 20px;
+}
+
+/* menu button */
+.Rest{
+    position: static;
+    width: 125px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Men{
+    /* Меню */
+    position: static;
+    width: 65px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Banq{
+    /* Банкеты */
+    position: static;
+    width: 80px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Cakes{
+    /* Торты на заказ */
+    position: static;
+    width: 145px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Contact{
+    /* Контакты */
+    position: static;
+    width: 83px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Feedback{
+    /* Обратная связь */
+    position: static;
+    width: 145px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+/* hovers */
+.Rest:hover{
+    color: rgb(254, 214, 50);
+
+}
+
+.Men:hover{
+    color: rgb(254, 214, 50);
+}
+
+.Banq:hover{
+    color: rgb(254, 214, 50);
+}
+
+.Cakes:hover{
+    color: rgb(254, 214, 50);
+}
+
+.Contact:hover{
+    color: rgb(254, 214, 50);
+}
+
+.Feedback:hover{
+    color: rgb(254, 214, 50);
+}
+
+.btn-left:hover{
+    box-sizing: border-box;
+    border: 1.5px solid rgb(15, 15, 15);
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+}
+
+.btn-right:hover{
+    box-sizing: border-box;
+    border: 1.5px solid rgb(254, 214, 50);
+    border-radius: 2px;
+}

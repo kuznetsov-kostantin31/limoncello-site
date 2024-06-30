@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
+	width: 1043px;
+    height: 3090px;
+	margin: 0 auto;
+}
+.map {
+	width: 557px;
+	height: 423px;
+}
+
+/*Блоки*/
+.hrr {
+	width: 1200px;
+	height: 136px;
+	margin: 0 auto;
+}
+
+.box {
+	position: relative;
+	bottom: 50px;
+	margin: 0 auto;
+	display: flex;
+	gap: 32px;
+	width: 290px;
+	height: 26px;
+
+}
+
+.block_1 {
+	width: 475px;
+    height: 253px;
+}
+.block_1_1 {
+	width: 469px;
+	height: 49px;
+	display: flex;
+	gap: 17px;
+	position: relative;
+	bottom: 20%;
+}
+.block_2 {
+	position: relative;
+	top: 180px;
+	left: 1%;
+	width: 460px;
+	height: 240px;
+	z-index: 1;
+}
+.block_2_1 {
+    width: 245px;
+    height: 46px;
+	display: flex;
+	gap: 10px;
+}
+.block_3 {
+	position: relative;
+	right: 0%;
+	top: 120px;
+	width: 460px;
+	height: 260px;
+}
+.block_4 {
+	position: relative;
+	left: -1%;
+	top: 20px;
+	width: 460px;
+	height: 260px;
+}
+.block_5 {
+    width: 302px;
+    height: 228px;
+}
+.text{
+	width: 191px;
+	height: 46px;
+}
+.cont_1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+	font-size: 72px;
+}
+.cont_2{
+	position: relative;
+	bottom: 30%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+	font-size: 28px;
+}
+.filos{
+	position: relative;
+	bottom: 30%;
+	width: 460px;
+	height: 32px;
+}
+.text_lar{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--black);
+}
+
+.content_1 {
+	position: absolute;
+	top: 270px;
+	margin: 0 auto;
+	width: 979px;
+	height: 422px;
+	display: flex;
+	gap: 150px;
+}
+.content_2 {
+	position: absolute;
+	top: 900px;
+	margin: 0 auto;
+	width: 1043px;
+	height: 422px;
+	display: flex;
+	gap: 25px;
+}
+.content_3 {
+	position: absolute;
+	top: 1500px;
+	margin: 0 auto;
+	width: 1043px;
+	height: 428px;
+	display: flex;
+}
+.content_4 {
+	position: absolute;
+	top: 2060px;
+	margin: 0 auto;
+	width: 1043px;
+	height: 428px;
+	display: flex;
+	gap: 150px;
+}
+.content_5 {
+	position: absolute;
+	top: 2620px;
+	margin: 0 auto;
+	width: 1043px;
+	height: 428px;
+	display: flex;
+	gap: 170px;
+}
+
+.address{
+    width: 247px;
+    height: 46px;
+}
+
+.jd{
+	font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--black);
+
+}
+/*Картинки*/
+.couple{
+	position: relative;
+	right: 1%;
+	
+}
+.pizza_oven{
+  position: relative;
+  left: 5%;
+}
+.pizza {
+	position: relative;
+	width: 422px;
+	height: 422px;
+	z-index: 1;
+}
+.interior {
+	position: relative;
+	right: 10%;
+	width: 460px;
+	height: 640px;
+}
+/*Бэкграунд*/
+
+.yge1{
+	position: absolute;
+    left: -45%;
+	bottom: 50%;
+	width: 512px;
+	height: 493px;
+}
+.yge2{
+   position: absolute;
+   bottom: -40%;
+   right: 30%;
+
+   z-index: -1;
+}
+.green{
+  position: absolute;
+  left: -30%;
+  top: 15%;
+  width: 205px;
+  height: 207px;
+}
+.green1{
+	position: absolute;
+	left: 60%;
+	top: 67%;
+	width: 182px;
+	height: 183px;
+}
+.green2{
+	position: absolute;
+	top: 9%;
+	left: 70%;
+	width: 400px;
+	height: 254px;
+}
+.green3{
+	position: absolute;
+	left: 105%;
+}
+.green4{
+	position: absolute;
+	top: 50%;
+	left: -20%;
+    z-index: -1;
+}
+.green5{
+	position: absolute;
+    left: 35%;
+	bottom: 250px;
+}
+.vector{
+    position: absolute;
+    left: 95%;
+	top: 70%;
+	z-index: 1;
+}
+.vector1{
+	width: 512px;
+	height: 251px;
+	position: absolute;
+	bottom: 80px;
+	left: -1%;
+    z-index: -1;
+}
+/*Кнопки*/
+.a{
+ width: 105px;
+}
+.b{
+ width: 51px;
+}
+.c{
+ width: 74px;
+}
+.d{
+ width: 129px;
+}
+.e{
+ width: 83px;
+}
+.f{
+ width: 134px;
+}
+.g{
+ width: 45px;
+}
+.h{
+ width: 66px;
+}
+.i{
+ width: 115px;
+}
+
+.btn_s {
+    border-radius: 3px;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	padding: 0px;
+}
+.btn {
+	font-size: 18px;
+	padding: 0px;
+}
+.btn_1 {
+	border-radius: 3px;
+	text-align: center;
+	width: 236px;
+	height: 49px;
+	background-color: rgb(254, 214, 50);
+	border: 2px solid rgb(254, 214, 50);
+}
+.btn_3 {
+	border-radius: 3px;
+	text-align: center;
+	width: 236px;
+	height: 49px;
+	border: 2px solid rgb(0, 0, 0);
+}
+.btn_2 {
+	border-radius: 3px;
+	text-align: center;
+	width: 190px;
+	height: 47px;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.btn_4 {
+	border-radius: 3px;
+	position: relative;
+	bottom: 60%;
+	left: 75%;
+	text-align: center;
+	width: 175px;
+	height: 49px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+
+}
+
+.arrow {
+	width: 38px;
+	height: 38px;
+	fill: green;
+}
+
+/*Анимации*/
+
+
+.btn:hover {
+	color: rgb(254, 214, 50);
+}
+.btn_s:hover {
+	color: rgb(254, 214, 50);
+}
+.btn_4:hover{
+ border: 2px solid rgb(254, 214, 50);
+}
+.btn_2:hover{
+ border: 2px solid rgb(254, 214, 50);
+}
+.btn_3:hover{
+ border: 2px solid rgb(254, 214, 50);
+}
+.btn_1:hover{
+   border: 2px solid black;
+}
+
+
+
+.btn_4:active{
+	background-color:  rgb(254, 214, 50);
+}
+.btn_2:active{
+	background-color:  rgb(254, 214, 50);
+}
+.btn_3:active{
+	background-color:  rgb(254, 214, 50);
+}
+
+.ba{
+	fill: aqua;
+}
+
+
+
+@media (max-width: 1440px){
+	.green5{
+	position: absolute;
+    left: 30%;
+	bottom: 250px;
+}
+}

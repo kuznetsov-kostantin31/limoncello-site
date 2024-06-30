@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.textbody{
+    position: absolute;
+    width: 1120px;
+    height: 540px;
+    left: 250px;
+    right: 969.48px;
+    top: 885.69px;
+    bottom: 3953.48px;
+    width: 100%;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.yellow-left-txt{    position: absolute;
+    width: 550px;
+    height: 600px;
+    left: -355px;
+    right: 969.48px;
+    top: 885.69px;
+    bottom: 3953.48px;
+}
+
+/* housetorg */
+.housetorg{
+    position: absolute;
+    height: 702px;
+    left: 0;
+    right: 0;
+    top: 1325px;
+    bottom: 3346px;
+    background: rgb(51, 91, 43);
+}
+
+.img_housetorg{
+    position: absolute;
+    left: 230px;
+    right: 849px;
+    top: 0px;
+    bottom: 350px;
+}
+
+.img1{
+    position: absolute;
+    width: 441px;
+    height: 292px;
+    left: 150px;
+    right: 849px;
+    top: 60px;
+    bottom: 350px;
+}
+
+.img2{
+    position: absolute;
+    width: 194px;
+    height: 292px;
+    left: 610px;
+    right: 636px;
+    top: 60px;
+    bottom: 350px;
+}
+
+.img3{
+    position: absolute;
+    width: 363px;
+    height: 272px;
+    left: 150px;
+    right: 927px;
+    top: 370px;
+    bottom: 60px;
+}
+
+.img4{
+    position: absolute;
+    width: 274px;
+    height: 272px;
+    left: 530px;
+    right: 636px;
+    top: 370px;
+    bottom: 60px;
+}
+
+.txthousetorg{
+    position: absolute;
+    left: 400px;
+}
+
+.housetorg h1{
+    position: absolute;
+    width: 350px;
+    height: 90px;
+    left: 901px;
+    right: -776.76px;
+    top: 180px;
+    bottom: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.h3_1{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    left: 901px;
+    right: -889.8px;
+    top: 520px;
+    bottom: -200px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.h3{
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    left: 901px;
+    right: -901px;
+    top: 306px;
+    bottom: -132px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Шатер */
+.shater{
+    position: absolute;
+    height: 646px;
+    left: 0;
+    right: 0;
+    top: 1927px;
+    bottom: 2700px;
+}
+
+.img5{
+    position: absolute;
+    width: 650px;
+    height: 450px;
+    left: 1200px;
+    right: 150px;
+    top: 138px;
+    bottom: 137px;
+}
+
+.list-shater{
+    position: absolute;
+    width: 205.36px;
+    height: 206.9px;
+    left: -70px;
+    right: 1266.15px;
+    top: 240px;
+    bottom: 2942.77px;
+    transform: rotate(113deg);
+}
+
+.txt-shater{
+    position: absolute;
+    width: 384px;
+    height: 278px;
+    left: 450px;
+    right: 809px;
+    top: 184px;
+    bottom: 184px;
+}
+
+.txt-shater h1{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 0;
+    right: -184px;
+    top: -20px;
+    bottom: 4px;
+    color: rgb(15, 15, 15);
+    font-family: Noto Sans;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.h3-shater{
+    position: absolute;
+    width: 480px;
+    height: 104px;
+    left: 0;
+    right: -247px;
+    top: 100px;
+    bottom: -116px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.h3_shater{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    left: 0;
+    right: -247px;
+    top: 280px;
+    bottom: -184px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Беседка */
+.besedka{
+    position: absolute;
+    width: 100%;
+    height: 747px;
+    left: 0;
+    right: 0;
+    top: 2573px;
+    bottom: 1953px;
+    background: rgb(51, 91, 43);
+    z-index: 1000;
+}
+
+.img_besed{
+    position: absolute;
+    width: 579.85px;
+    height: 559.27px;
+    left: 300px;
+    right: 1197.84px;
+    top: 0px;
+    bottom: 305.73px;
+}
+
+.yellow-up-us{
+    position: absolute;
+    width: 579.85px;
+    height: 559.27px;
+    left: -337.69px;
+    right: 1197.84px;
+    top: 600px;
+    bottom: 305.73px;
+    z-index: 2;
+}
+
+.yellow-right-besed{
+    position: absolute;
+    width: 681.64px;
+    height: 1000px;
+    left: 1910.73px;
+    right: -730.36px;
+    top: -380px;
+    bottom: 1674.06px;
+}
+
+.besed1{
+    position: absolute;
+    width: 269px;
+    height: 340px;
+    left: 150px;
+    right: 1021px;
+    top: 60px;
+    bottom: 347px;
+}
+
+.besed2{
+    position: absolute;
+    width: 268px;
+    height: 268px;
+    left: 439px;
+    right: 733px;
+    top: 61px;
+    bottom: 418px;
+}
+
+.besed3{
+    position: absolute;
+    width: 269px;
+    height: 269px;
+    left: 150px;
+    right: 1021px;
+    top: 418px;
+    bottom: 60px;
+}
+
+.besed4{
+    position: absolute;
+    width: 268px;
+    height: 340px;
+    left: 439px;
+    right: 733px;
+    top: 347px;
+    bottom: 60px;
+}
+
+.txt-besed{
+    position: absolute;
+    width: 387px;
+    height: 203px;
+    left: 1200px;
+    right: 218px;
+    top: 253px;
+    bottom: 291px;
+}
+
+.txt-besed h1{
+    position: absolute;
+    width: 4000px;
+    height: 45px;
+    left: 0;
+    right: -728px;
+    top: -90px;
+    bottom: -95px;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.besed-txt{
+    position: absolute;
+    width: 650px;
+    height: 78px;
+    left: 0;
+    right: -835px;
+    top: -20px;
+    bottom: -185px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.besed_txt{
+    position: absolute;
+    width: 520px;
+    height: 52px;
+    left: 0;
+    right: -807px;
+    top: 150px;
+    bottom: -253px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Why us */
+.why_us{
+    position: absolute;
+    width: 100%;
+    height: 705px;
+    left: -120px;
+    right: 0;
+    top: 3320px;
+    bottom: 1248px;
+}
+
+.why{
+    position: absolute;
+    width: 1140px;
+    height: 345px;
+    left: 150px;
+    right: 150px;
+    top: 180px;
+    bottom: 180px;
+}
+
+.why h1{
+    position: absolute;
+    width: 630px;
+    height: 45px;
+    left: 600px;
+    right: 154px;
+    top: 0;
+    bottom: 120px;
+    color: rgb(15, 15, 15);
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-weight: 500px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ikon */
+.ikons{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: 450px;
+    right: -150px;
+    top: 325px;
+    bottom: -180px;
+    gap: 5%;
+    margin-top: 20px;
+}
+
+.ik_1{
+    width: 238px;
+    height: 170px;
+    text-align: center;
+}
+
+.ik_2{
+    width: 221px;
+    height: 199px;
+    text-align: center;
+}
+
+.ik_3{
+    width: 254px;
+    height: 170px;
+    text-align: center;
+}
+
+.ik_4{
+    width: 274px;
+    height: 170px;
+    text-align: center;
+}
+
+.ik_1 h3{
+position: absolute;
+width: 238px;
+height: 58px;
+color: rgb(15, 15, 15);
+font-family: Roboto;
+font-size: 22px;
+font-weight: 300;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.ik_2 h3{
+    position: absolute;
+    width: 221px;
+    height: 87px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.ik_3 h3{
+    position: absolute;
+    width: 254px;
+    height: 58px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.ik_4 h3{
+    position: absolute;
+    width: 274px;
+    height: 58px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* Swaper */
+.swiper{
+    position: absolute;
+    width: 1440px;
+    height: 559px;
+    left: 0;
+    right: 0;
+    top: 4025px;
+    bottom: 689px;
+}
+
+.swiper-slide{
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 58%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 140px !important; 
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px !important; 
+    right: auto;
+}
+
+/* listya and ect */
+.right-list-us{
+    position: absolute;
+    width: 267px;
+    height: 269px;
+    left: 1956.9px;
+    right: -103.9px;
+    top: 550px;
+    bottom: 123.77px;
+    object-fit: contain;
+}
+
+.green-list-down{
+    position: absolute;
+    width: 181.21px;
+    height: 182.57px;
+    left: -71.56px;
+    right: 1320.34px;
+    top: 4500px;
+    bottom: 330.11px;
+    z-index: 1;
+}
+
+.listya-down{
+    position: absolute;
+    width: 410.06px;
+    height: 324.37px;
+    left: 1678px;
+    right: 51.94px;
+    top: 4900px;
+    bottom: 195.63px;
+}
+
+.green-list-down-right1{
+    position: relative;
+    width: 215.36px;
+    height: 223.89px;
+}
+
+.green-list-down-right2{
+    position: relative;
+    width: 144.08px;
+    height: 149.79px;
+}
+
+.send-whatsapp{
+    position: absolute;
+    width: 696px;
+    height: 160px;
+    left: 720px;
+    right: 372px;
+    top: 4750px;
+    bottom: 413px;
+}
+
+.send-whatsapp h2{
+    position: absolute;
+    width: 850px;
+    height: 120px;
+    left: -80px;
+    right: -372px;
+    top: 0;
+    bottom: -4630px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn-whats{
+    position: absolute;
+    width: 230px;
+    height: 52px;
+    left: 230px;
+    right: -372px;
+    top: 180px;
+    bottom: -4630px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 28px 8px 28px;
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+    border: none;
+}
+
+.btn-whats h1{
+    /* Написать в Whatsapp */
+    position: static;
+    width: 161px;
+    height: 26px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 28px 8px 28px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-whats:hover{
+    box-sizing: border-box;
+    border: 1.5px solid rgb(15, 15, 15);
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+}
+
+
+/* @media */

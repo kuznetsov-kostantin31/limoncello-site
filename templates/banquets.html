@@ -1,0 +1,190 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'banquetstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'header.css' %}">
+    <link rel="stylesheet" href="{% static 'footer.css' %}">
+    <link rel="stylesheet" href="../static/banquets/banquetstyle.css">
+    <link rel="stylesheet" href="../static/banquets/header.css">
+    <link rel="stylesheet" href="../static/banquets/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>LIMONCELLO</title>
+</head>
+<body>
+    <header>
+        <img src="../static/img/banquets/header/banq.svg" alt="banq-header" class="banq">
+        <img src="../static/img/banquets/header/line-header.svg" alt="line-header" class="line-header">
+        <img src="../static/img/banquets/header/yellow-header.png" alt="yellow-header" class="yellow-header">
+
+        <div class="logo">
+            <a href="#"><img src="../static/img/banquets/header/logo.svg" alt="logo"></a>
+        </div>
+        <div class="menu">
+            <a href="{% url 'main' %}" class="Rest">О ресторане</a>
+            <a href="https://drive.google.com/file/d/1SC3J-VhzwFANTSJt9XqQ_kT_m7XCBkWi/view" class="Men">Меню</a>
+            <a href="{% url 'banquets' %}" class="Banq">Банкеты</a>
+            <a href="{% url 'customcake' %}" class="Cakes">Торты на заказ</a>
+            <a href="https://wa.me/79147073443" class="Contact">Контакты</a>
+            <a href="{% url 'contact' %}" class="Feedback">Обратная связь</a>
+        </div>
+        <div class="social">
+            <a href="" class="Inst"><img src="../static/img/banquets/header/insta.svg" alt="Inst" class="Inst"></a>
+            <a href="" class="Whats"><img src="../static/img/banquets/header/whatsapp.svg" alt="Whats" class="Whats"></a>
+            <div class="Language">
+                <button class="Lang">RU&#11167;</button>
+                <button onclick="{% url 'banquetsEng' %}" class="RU">EN</button>
+            </div>
+        </div>
+        <div class="txt-header">
+            <h1>Ваше идеальное торжество</h1>
+            <h3>с командой ресторана Limoncello</h3>
+            <div class="btn2">
+                <button class="btn-left"><h1>Узнать больше</h1></button>
+                <button class="btn-right"><h1>Банкетное меню</h1></button>
+            </div>
+        </div>
+        <div class="listya">
+            <img src="../static/img/banquets/body/list-left.svg" alt="left-list" class="left-list">
+            <img src="../static/img/banquets/body/list-right.svg" alt="right-list" class="right-list">
+        </div>
+    </header>
+
+    <h3 class="textbody">Профессиональное обслуживание и внимание к деталям – наш секрет идеального праздника. Команда ресторана Limoncello готова организовать для вас мероприятие любого масштаба – от камерных деловых встреч до масштабных свадебных торжеств. Мы предлагаем авторское меню на основе свежих и натуральных ингредиентов и несколько вариантов площадок для любой компании.</h3>
+    <img src="../static/img/banquets/body/yellow-left-txt.svg" alt="yellow-left-txt" class="yellow-left-txt">
+
+    <div class="housetorg">
+        <div class="img_housetorg">
+            <img src="../static/img/banquets/body/housetorg/holl.png" alt="holl" class="img1">
+            <img src="../static/img/banquets/body/housetorg/flowers.png" alt="flowers" class="img2">
+            <img src="../static/img/banquets/body/housetorg/arca.png" alt="arca" class="img3">
+            <img src="../static/img/banquets/body/housetorg/house.png" alt="house" class="img4">
+        </div>
+        <div class="txthousetorg">
+            <h1>Дом торжеств Aurora hall</h1>
+            <h3 class="h3">Роскошный двухэтажный дом с собственной террасой. Банкетный зал рассчитан на 50 гостей. На втором этаже расположен конференц-зал и комната для сборов невесты, фотосессии или отдыха гостей.</h3>
+            <h3 class="h3_1">Депозит на одного гостя: <br> 5 500 ₽ (июнь - сентябрь), 4 000 ₽ (октябрь - май)</h3>
+        </div>
+    </div>
+
+    <div class="shater">
+        <img src="../static/img/banquets/body/shater/shater.png" alt="shater" class="img5">
+        <img src="../static/img/banquets/body/shater/list-shater.svg" alt="list-shater" class="list-shater">
+        <div class="txt-shater">
+            <h1>Круглогодичный шатёр</h1>
+            <h3 class="h3-shater">Просторный, светлый, уютный зал с панорамным остеклением. Отличный вариант для проведения свадьбы и других торжественных мероприятий. Зал вмещает до 100 гостей.</h3>
+            <h3 class="h3_shater">Депозит на одного гостя: <br> 5 000 ₽ (июнь - сентябрь), 4 000 ₽ (октябрь - май)</h3>
+        </div>
+    </div>
+
+    <div class="besedka">
+        <img src="../static/img/banquets/body/besedka/yellow-right-besed.svg" alt="yellow-right-besed" class="yellow-right-besed">
+        <div class="img_besed">
+            <img src="../static/img/banquets/body/besedka/besed1.png" alt="besed1" class="besed1">
+            <img src="../static/img/banquets/body/besedka/besed2.png" alt="besed2" class="besed2">
+            <img src="../static/img/banquets/body/besedka/besed3.png" alt="besed3" class="besed3">
+            <img src="../static/img/banquets/body/besedka/besed4.png" alt="besed4" class="besed4">
+        </div>
+        <div class="txt-besed">
+            <h1>Летние беседки</h1>
+            <h3 class="besed-txt">Идеальное место для проведения камерных мероприятий и семейного отдыха на свежем воздухе. Летняя беседка вмещает до 15 гостей.</h3>
+            <h3 class="besed_txt">Депозит на компанию: <br> 15 000 ₽ (будние дни), 25 000 ₽ (выходные дни)</h3>
+        </div>
+        <img src="../static/img/banquets/body/why_us/yellow-up-us.svg" alt="yellow-up-us" class="yellow-up-us">
+    </div>
+
+    <div class="why_us">
+        <div class="why">
+            <h1>Почему гости выбирают нас?</h1>
+        </div>
+        <div class="ikons">
+            <div class="ik_1"><img src="../static/img/banquets/body/why_us/prirod.svg" alt="prirod"><h3>Уединенное место в пригороде с большой парковой зоной</h3></div>
+            <div class="ik_2"><img src="../static/img/banquets/body/why_us/car.svg" alt="car"><h3>Бесплатная парковка для автомобилей с видеонаблюдением</h3></div>
+            <div class="ik_3"><img src="../static/img/banquets/body/why_us/cam.svg" alt="cam"><h3>Большое количество уникальных локаций для фотосессии</h3></div>
+            <div class="ik_4"><img src="../static/img/banquets/body/why_us/kah.svg" alt="kah"><h3>Детская площадка на свежем воздухе и детская комната в отеле</h3></div>
+        </div>
+        <img src="../static/img/banquets/body/why_us/right-list-us.svg" alt="right-list-us" class="right-list-us">
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper1.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper2.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper3.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper4.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper5.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper6.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper7.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper8.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper9.jpg"></div>
+          <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper10.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <img src="../static/img/banquets/body/green-list-down.svg" alt="green-list-down" class="green-list-down">
+
+    <div class="listya-down">
+        <img src="../static/img/banquets/body/green-list-down-right1.svg" alt="green-list-down-right1" class="green-list-down-right1">
+        <img src="../static/img/banquets/body/green-list-donw-right2.svg" alt="green-list-down-right2" class="green-list-down-right2">
+    </div>
+
+    <div class="send-whatsapp">
+        <h2>Задать вопрос, рассчитать стоимость или заказать мероприятие можно по номеру: 8 (914) 707-60-60</h2>
+        <button class="btn-whats"><h1>Написать в Whatsapp</h1></button>
+    </div>
+
+    <div class="footer">
+        <div class="line"></div>
+        <div class="Logo">
+            <a href="#"><img src="../static/img/banquets/header/logo.svg" alt="logo"></a>
+        </div>
+        <div class="fmenu">
+            <a href="{% url 'main' %}" class="fRest">О ресторане</a>
+            <a href="{% url 'banquets' %}" class="fMen">Меню</a>
+            <a href="{% url 'banquets' %}" class="fBanq">Банкеты</a>
+            <a href="{% url 'contact' %}" class="fConct">Контакты</a>
+        </div>
+        <a href="#" class="fbtn">
+            <h1>Обратная связь</h1>
+        </a>
+        <div class="footback">
+            <h3 class="txt1">2016 - 2024 © Limoncello</h3>
+            <a href="#" class="txt2">Политика конфиденциальности</a>
+            <div class="fsocial">
+                <a href="" class="fInst"><img src="../static/img/banquets/header/insta.svg" alt="Inst" class="fInst"></a>
+                <a href="" class="fWhats"><img src="../static/img/banquets/header/whatsapp.svg" alt="Whats" class="fWhats"></a>
+            </div>
+        </div>
+    </div>
+    
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        keyboard: true,
+    });
+    
+    </script>
+    <style>
+        body{
+            position: relative;
+            width: 100%;
+            height: 5300px;
+            margin: 0;
+            overflow-x: hidden;
+        }
+    </style>
+</html>

@@ -1,0 +1,177 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'mainstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    <link rel="stylesheet" href="../static/mainstyle.css">
+    <link rel="stylesheet" href="../static/base.css">
+    <title>LIMONCELLO</title>
+</head>
+<body>
+<header>
+        <img class="logo" src="../static/img/Union.svg" alt="logo">
+
+        <div class="head">
+            <a href="{% url 'mainEng' %}"><div class="btn a font_Robot">About us</div></a>
+            <a href="{% url 'menu' %}"><div class="btn b font_Robot">Menu</div></a>
+            <a href="{% url 'banquetsEng' %}"><div class="btn c font_Robot">Banquets</div></a>
+            <a href="{% url 'customcakeEng' %}"><div class="btn d font_Robot">Custom cakes</div></a>
+            <a href="#contacts"><div class="btn e font_Robot">Contacts</div></a>
+            <a href="{% url 'contactEng' %}"><div class="btn f font_Robot">Feedback</div></a>
+        </div>
+
+        <div class="ikon"> 
+            <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
+            <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
+            <div class="language">
+                <img src="../static/img/rus.svg" class="btn icon">
+                <div class="arr">
+                    <img src="../static/img/arrow.svg" class="btn">
+                </div>
+                <div class="russ">
+                    <a href="{% url 'main' %}"><img src="../static/img/language.svg" class="btn icon rus"></a>
+                </div> 
+            </div>
+        </div>
+
+        <img class="yge" src="../static/img/yellow graphic element.svg" alt="yellow">
+</header>
+
+        <main>
+    
+            <div class="content_1"> 
+                <img class="green" src="../static/img/green leaf element.svg" alt="green">
+                <div class="block_1">
+                    <div class="cont_1 "><p>LIMONCELLO</p></div>
+                    <div class="cont_2"><p></p>Enjoy traditional Italian cuisine with a modern twist</div>
+                        <div class="block_1_1">
+                            <a href="https://wa.me/79147073443"><div class="btn_1 font_Robot"><p>Book a table</p></div></a>
+                            <a href="{% url 'menu' %}"><div class="btn_2 font_Robot"><p>Check the menu</p></div></a>
+                        </div>
+                    </div>
+                <img class="pizza" src="../static/img/pizza image.svg" alt="pizza">
+                <img class="green1" src="../static/img/green leaf element(1).svg" alt="green1">
+            </div>
+    
+            <div class="content_2">
+                <img class="yge1" src="../static/img/yellow graphic element(1).svg" alt="yellow1">
+                <img class="interior" src="../static/img/interior image.svg" alt="interior">
+                <div class="block_2">
+                    <div class="filos"><p class="font_NotoSans">Limoncello Philosophy</p></div>
+                        <div class="cont_2">
+                            <h4 class="font_Robot text_lar">Limoncello restaurant is a place where warm family atmosphere, highest quality products and chef Alexander Bobryakov's skill are combined. Enjoy the taste of real Italy surrounded by nature 15 minutes from the city
+                            </h4>
+                        </div>
+                    <div class="block_2_1">
+                        <a href="https://www.instagram.com/limoncellovl/"><img class="arrow" src="../static/img/Arrow btn.svg" alt="arrow"></a> 
+                        <div class="text font_Robot">Find out more about us on Instagram</div>
+                    </div> 
+                    
+                </div>
+                <img class="green2" src="../static/img/green leafs elements.svg" alt="green2">
+            </div>
+    
+            <div class="content_3">
+                <div class="block_3">
+                    <h3 class="font_NotoSans">Respecting traditions</h3>
+                        <h4 class="font_Robot text_lar">We are proud to use an authentic Italian wood-fired Morello Forni oven to cook every pizza. A true symbol of Italian culinary tradition combined with the skill of our pizzaiolos helps to create the unique aroma and bright taste of pizza with genuine Italian quality
+                        </h4>
+                     <a href="{% url 'menu' %}"><div class="btn_2 font_Robot"><p>Check the menu</p></div></a>
+                </div>
+                <img class="yge2" src="../static/img/yellow graphic element .svg" alt="yellow2">
+                <img class="pizza_oven" src="../static/img/pizza oven image.svg" alt="pizza oven">
+                <img class="green3" src="../static/img/green leaf element(2).svg" alt="green3">
+                <img class="vector" src="../static/img/Vector.svg" alt="Vector">
+            </div>
+    
+             <div class="content_4">
+                <img class="couple" src="../static/img/couple image.svg" alt="couple">
+                <img class="green4" src="../static/img/green leaf element(3).svg" alt="green4">
+                <div class="block_4">
+                    <h3 class="font_NotoSans">Vacation in comfort</h3>
+                        <h4 class="font_Robot text_lar">Limoncello is located on the territory of the hotel and restaurant complex Aurora Park Hotel, surrounded by a picturesque park area, which is ideal for family outings. For our young guests we offer a spacious playroom and two playgrounds, and for relaxing on warm summer days we have a cozy outdoor terrace
+                        </h4>
+                    <a href="https://wa.me/79147073443"><div class="btn_3 font_Robot"><p>Book a table</p></div></a>
+                </div>
+            </div>
+    
+            <div class="content_5" id="contacts">
+                <div class="block_5">
+                    <h3 class="jd">We look forward to your visit!</h3>
+                    <div class="address">
+                        <div class="color font_Robot"><p>Address</p></div>
+                        <h4 class="font_Robot">8, Dvenadtsataya St., Vladivostok</h4>
+                    </div>
+                    <div class="number">
+                        <div class="color font_Robot"><p>Phone number</p></div>
+                        <h4 class="font_Robot">8 (914) 707-34-43</h4>
+                    </div>
+                    <div class="work_mode">
+                        <div class="color font_Robot"><p>Operating mode</p></div>
+                        <h4 class="font_Robot">Daily 11:00 - 23:00</h4>
+                    </div>
+                </div>
+    
+                <div class="map" style="position:relative;overflow:hidden;">
+                    <a href="https://yandex.ru/maps/org/limoncello/1718787308/?utm_medium=mapframe&utm_source=maps"
+                       style="color:#eee;font-size:12px;position:absolute;top:0px;">Limoncello</a>
+                    <a href="https://yandex.ru/maps/75/vladivostok/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps"
+                       style="color:#eee;font-size:12px;position:absolute;top:14px;">Restaurant in Vladivostok</a>
+                    <a href="https://yandex.ru/maps/75/vladivostok/category/banquet_hall/184108315/?utm_medium=mapframe&utm_source=maps"
+                       style="color:#eee;font-size:12px;position:absolute;top:28px;">Banquet hall in Vladivostok</a>
+                    <iframe src="https://yandex.ru/map-widget/v1/org/limoncello/1718787308/?ll=131.978182%2C43.225307&z=17"
+                        width="560" height="400" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe>
+                </div>
+            </div>
+                  
+    </main>
+    
+<footer>
+
+        <div class="content_6">
+            <div class="hrr"><hr>
+            <img class="logo" src="../static/img/Union.svg" alt="Union">
+                <div class="box_4">
+                    <a href="{% url 'mainEng' %}"><div class="btn a font_Robot">About us</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b font_Robot">Menu</div></a>
+                    <a href="{% url 'banquetsEng' %}"><div class="btn c font_Robot">Banquets</div></a>
+                    <a href="{% url 'customcakeEng' %}"><div class="btn d font_Robot">Custom cakes</div></a>
+                </div>
+                <a href="{% url 'contactEng' %}"><div class="btn_4 font_Robot"><p>Feedback</p></div></a>
+            </div>
+        </div>
+
+
+        <div class="box_3">
+            <div class="cop"><p>2016 - 2024 © Limoncello</p></div>  
+            <div class="pol"><p>Privacy policy</p></div>
+            <div class="box_2 font_Robot">
+                <a href="https://www.instagram.com/limoncellovl/"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="btn iicon" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M17.5 6.5H17.51" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></a>
+                <a href="https://wa.me/79147073443">
+                    <svg width="24" height="24" viewBox="0 0 24 24" stroke="white" Stroke-width="10%" fill="none" class="btn iicon" xmlns="http://www.w3.org/2000/svg">
+                      <path class="baa" d="M8.3114 10.8262L10.0114 9.11508L9.56697 7.55951H7.55584C7.55584 7.55951 7.10028 10.3818 10.3559 13.6262C13.6114 16.8707 16.4448 16.4485 16.4448 16.4485V14.4373L14.8892 13.9929L13.1781 15.6929M21.8671 13.6262C21.611 15.1818 20.9908 16.6548 20.057 17.9251C19.1232 19.1953 17.9023 20.2268 16.4939 20.9353C15.0856 21.6438 13.5297 22.0093 11.9531 22.0019C10.3766 21.9946 8.82419 21.6146 7.4225 20.893L2.00023 22.0041L3.11135 16.5818C2.38619 15.175 2.00532 13.6161 2.00006 12.0333C1.99479 10.4506 2.36529 8.88922 3.08108 7.47758C3.79687 6.06594 4.83751 4.84437 6.11743 3.9133C7.39736 2.98223 8.88 2.36827 10.4435 2.1219C12.0069 1.87553 13.6065 2.00378 15.1107 2.49611C16.615 2.98844 17.9808 3.83079 19.0961 4.95389C20.2113 6.077 21.044 7.44877 21.5257 8.95643C22.0075 10.4641 22.1244 12.0645 21.8671 13.6262Z" stroke="#0F0F0F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+        <img class="green5" src="../static/img/green leaf element(4).svg" alt="green5">
+        <img class="vector1" src="../static/img/Vector(2).png" alt="vector1">
+</footer>
+
+</body>
+</html>
+
+
+
+
+
