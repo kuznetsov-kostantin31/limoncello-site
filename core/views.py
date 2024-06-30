@@ -100,3 +100,7 @@ def contactEng(request):
 
 def menu(reqeust):
     return render(reqeust, 'menu.html')
+
+
+def banquets_menu(reqeust):
+    return render(reqeust, 'banquets-menu.html')

@@ -7,6 +7,7 @@ header{
     right: 0;
     top: 0;
     bottom: 5183px;
+    display: flex;
 }
 
 /* text and button */
@@ -29,7 +30,7 @@ header{
     top: 0;
     bottom: -149px;
     color: rgb(15, 15, 15);
-    font-family: Noto Sans;
+    font-family: Noto Sans, serif;
     font-size: 60px;
     font-weight: 400;
     line-height: 110%;
@@ -142,7 +143,7 @@ header{
 }
 
 /* img */
-.banq{
+.banqq{
     position: absolute;
     width: 653px;
     height: 855px;
@@ -156,7 +157,7 @@ header{
     position: absolute;
     width: 120px;
     height: 855px;
-    left: 580px;
+    left: 530px;
     right: 0;
     top: 0;
     bottom: 0;
@@ -200,7 +201,7 @@ header{
 
 
 /* logo */
-.logo{
+.logoo{
     position: absolute;
     width: 111px;
     height: 56px;
@@ -237,6 +238,8 @@ header{
   right: 70px;
   top: 33px;
   bottom: 33px;
+    display: flex;
+    margin-left: 340px;
 }
 
 .Inst {
@@ -315,7 +318,7 @@ header{
     margin: 0px 32px;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
@@ -341,7 +344,7 @@ header{
     margin: 0px 32px;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
@@ -367,7 +370,7 @@ header{
     margin: 0px 32px;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
@@ -393,7 +396,7 @@ header{
     margin: 0px 32px;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
@@ -419,7 +422,7 @@ header{
     margin: 0px 32px;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
@@ -445,7 +448,7 @@ header{
     margin: 0px 32px;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
@@ -490,4 +493,429 @@ header{
     box-sizing: border-box;
     border: 1.5px solid rgb(254, 214, 50);
     border-radius: 2px;
+}
+
+.iicon {
+	width: 24px;
+	height: 24px;
+	background-color: rgb(160, 160, 160);
+}
+.russ{
+  width: 48px;
+  height: 48px;
+  display: none;
+}
+.rus{
+  position: relative;
+  top: 20px;
+  right: 45px;
+}
+
+/* Иконка */
+.rus:active{
+  border: 1px solid black;
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+}
+
+/* Стрелочка */
+.arr{
+  position: relative;
+  top: 0px;
+  width: 16px;
+  height: 24px;
+  transition: transform 0.3s, top 0.3s, left 0.3s; /* Добавлено плавное изменение */
+}
+.language:hover .arr{
+  transform: rotate(180deg);
+  top: 0px;
+ /* Измените значение left на необходимое */
+}
+
+/* Блок для наводки */
+.language{
+  width: 40px;
+  height: 24px;
+  gap: 5px;
+  display: flex;
+    margin-left: 10px;
+}
+.language:hover > .russ{
+  display: initial;
+}
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  z-index: 1;
+  gap: 350px; /* Adjust the gap as needed */
+  /* flex-wrap: wrap; Allow items to wrap to new line on smaller screens */
+}
+.boxx {
+  gap: 100px;
+  width: 100%;
+  max-width: 1600px;
+  height: 90px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logoWhite{
+    display: none;
+}
+
+.burger{
+    display: none;
+}
+
+#slide{
+    display: none;
+}
+
+@media(max-width: 480px){
+    .listya{
+        width: 147.64px;
+        height: 151.45px;
+        left: 268px;
+        right: -25.64px;
+        top: 2440px;
+        bottom: 374.55px;
+    }
+
+    .txt-header{
+        width: 278px;
+        height: 237px;
+        left: 46px;
+        top: 160px;
+        z-index: 2;
+    }
+
+    .txt-header h1{
+        width: 270px;
+        height: 76px;
+        font-size: 32px;
+        color: white;
+        top: 40px
+    }
+
+    .txt-header h3{
+        width: 289px;
+        height: 23px;
+        font-size: 18px;
+        color: white;
+        top: 30px;
+        margin: 0;
+    }
+
+    .btn2{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-left{
+        width: 203px;
+        height: 49px;
+    }
+
+    .btn-left h1{
+        width: 132px;
+        height: 29px;
+        font-size: 18px;
+        color: black;
+    }
+
+    .btn-right{
+        width: 203px;
+        height: 49px;
+        background-color: gray;
+        opacity: 0.7;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 2px;
+        left: -25px;
+    }
+
+    .btn-right h1{
+        width: 147px;
+        height: 29px;
+        font-size: 18px;
+    }
+
+    .left-list{
+        width: 85.36px;
+        height: 88.3px;
+        left: 40px;
+        top: 25px;
+    }
+
+    .right-list{
+        width: 67.45px;
+        height: 70.46px;
+        left: 120px;
+    }
+
+    .menu a{
+        color: black;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .banqq{
+        position: absolute;
+        width: 514px;
+        height: 817px;
+        left: -85px;
+        top: -65px;
+    }
+
+    .logoo{
+        display: none;
+    }
+
+    .yellow-header{
+        display: none;
+    }
+
+    .logoWhite{
+        position: absolute;
+        display: block;
+        top: 40px;
+        left: 40px;
+        z-index: 2;
+    }
+
+    .dark{
+        background: rgba(15, 15, 15, 0.5);
+        position: absolute;
+        width: 430px;
+        height: 695px;
+        z-index: 1;
+    }
+
+    .burger{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 330px;
+        top: 40px;
+        z-index: 2;
+    }
+
+    .burger button{
+        background: none;
+        border: none;
+    }
+
+    #slide {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 500px;
+        right: 0;
+        width: 283px;
+        height: 695px;
+        background-color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: right 0.5s ease-in-out;
+    }
+
+    #slide.show {
+        display: inline;
+        left: 150px;
+        z-index: 2000;
+    }
+
+    .X{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 200px;
+        top: 40px;
+        z-index: 2;
+        background: none;
+        border: none;
+    }
+
+    .slidemenu{
+        position: absolute;
+        width: 115px;
+        height: 170px;
+        left: 30px;
+        right: 138px;
+        top: 80px;
+        bottom: 490px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+    }
+
+    .slideRest h1{
+        width: 105px;
+        height: 18px;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .slideMen h1{
+        width: 51px;
+        height: 18px;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .slideBanq h1{
+        width: 74px;
+        height: 18px;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .slideCakes h1{
+        width: 129px;
+        height: 18px;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .slideFeedback h1{
+        width: 134px;
+        height: 18px;
+        font-size: 18px;
+        color: black;
+        margin: 0;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .inffo{
+        position: absolute;
+        width: 218px;
+        height: 170px;
+        left: 30px;
+        right: 35px;
+        top: 430px;
+        bottom: 88px;
+    }
+
+    .adress h3{
+        width: 41px;
+        height: 17px;
+        color: rgb(160, 160, 160);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .adress h1{
+        width: 220px;
+        height: 17px;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .phonenumber h3{
+        width: 100px;
+        height: 17px;
+        color: rgb(160, 160, 160);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .phonenumber h1{
+        width: 220px;
+        height: 17px;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .opening h3{
+        width: 100px;
+        height: 17px;
+        color: rgb(160, 160, 160);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .opening h1{
+        width: 220px;
+        height: 17px;
+        color: rgb(15, 15, 15);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 0;
+    }
 }

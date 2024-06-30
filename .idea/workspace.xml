@@ -4,131 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aacb1f6f-5a6f-43e1-ad30-604505650303" name="Changes" comment="comm">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TheBestSite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheBestSite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheBestSite/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheBestSite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheBestSite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheBestSite/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets-menu.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets/banquetstyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/banquets/swiper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/contactstyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/customcakestyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Arrow btn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Color=white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Union.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Vector(1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Vector(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Vector(2).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/besedka/besed1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/besedka/besed2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/besedka/besed3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/besedka/besed4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/besedka/yellow-right-besed.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/green-list-donw-right2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/green-list-down-right1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/green-list-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/housetorg/arca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/housetorg/flowers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/housetorg/holl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/housetorg/house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/list-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/list-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/shater/list-shater.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/shater/shater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/why_us/cam.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/why_us/car.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/why_us/kah.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/why_us/prirod.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/why_us/right-list-us.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/why_us/yellow-up-us.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/yellow-left-txt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/body/yellow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/footer/fInsta.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/footer/fwhats.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/X.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/banq.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/insta.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/line-header.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/logoWhite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/whatsapp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/header/yellow-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/banquets/swiper/swaper9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/burger menu w.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/cake image 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/cake image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/couple image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/free line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element 9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element(1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element(2).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element(3).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element(4).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element(5).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leaf element7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leafs elements.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/green leafs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/greensss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/interior image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/language.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo w.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/pizza image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/pizza oven image.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/rus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/whatsapp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/x.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/yellow graphic element .svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/yellow graphic element(1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/yellow graphic element.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/limon-menu.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mainstyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/banquets-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/banquets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/banquetsEng.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contactEng.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/customcake.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/customcakeEng.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mainEng.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" />
+    <list default="true" id="aacb1f6f-5a6f-43e1-ad30-604505650303" name="Changes" comment="Start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/banquets/banquetstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/banquets/banquetstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/banquets/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/banquets/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/banquets/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/banquets/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/banquets-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/banquets-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/banquetsEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/banquetsEng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contactEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contactEng.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,24 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Кос/Downloads/limoncello-master/limoncello-master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Кос/Downloads/limoncello-master/limoncello-master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Кос\Desktop\limoncello\static\img\banquets\header" />
@@ -236,7 +123,7 @@
       <workItem from="1719724000135" duration="4764000" />
       <workItem from="1719734293476" duration="1260000" />
       <workItem from="1719746879797" duration="4593000" />
-      <workItem from="1719764955118" duration="220000" />
+      <workItem from="1719764955118" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <option name="closed" value="true" />
@@ -254,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719760546039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Start">
+      <option name="closed" value="true" />
+      <created>1719765206250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719765206250</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comm" />
-    <option name="LAST_COMMIT_MESSAGE" value="comm" />
+    <MESSAGE value="Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
 </project>

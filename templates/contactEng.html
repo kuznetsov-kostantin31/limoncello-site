@@ -62,7 +62,7 @@
             </div>
            <img class="green7" src="/static/img/green leaf element7.svg" alt="green7">
            <div class="Form">
-            <form>
+            <form method="post">
                
                 <div class="name-number-box">
       
@@ -80,7 +80,8 @@
                     <input type="checkbox" required class="btn_a">
                     <div class="person_data_text"><p><div class="person_data_text_color">By clicking the "Submit" button,</div><a class="person_data_text_href_color" href="">I consent to the processing of my personal data </a> </p></div>
                 </div>
-                <div class="btn_z"><p>Submit</p></div>
+                {% csrf_token %}
+                <button class="btn_z" type="submit"><p>Submit</p></button>
                 
             </form>
             </div>

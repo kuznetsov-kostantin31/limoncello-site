@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .textbody{
     position: absolute;
-    width: 1120px;
-    height: 540px;
-    left: 250px;
-    right: 969.48px;
+    width: 960px;
+    height: 270px;
+    left: 450px;
     top: 885.69px;
-    bottom: 3953.48px;
-    width: 100%;
     color: rgb(15, 15, 15);
     font-family: Roboto;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 160%;
     letter-spacing: 0%;
     text-align: center;
 }
 
-.yellow-left-txt{    position: absolute;
+.yellow-left-txt{
+    position: absolute;
     width: 550px;
     height: 600px;
     left: -355px;
@@ -245,14 +243,13 @@
     top: 2573px;
     bottom: 1953px;
     background: rgb(51, 91, 43);
-    z-index: 1000;
 }
 
 .img_besed{
     position: absolute;
     width: 579.85px;
     height: 559.27px;
-    left: 300px;
+    left: 200px;
     right: 1197.84px;
     top: 0px;
     bottom: 305.73px;
@@ -266,7 +263,7 @@
     right: 1197.84px;
     top: 600px;
     bottom: 305.73px;
-    z-index: 2;
+    z-index: -2;
 }
 
 .yellow-right-besed{
@@ -323,7 +320,7 @@
     position: absolute;
     width: 387px;
     height: 203px;
-    left: 1200px;
+    left: 1100px;
     right: 218px;
     top: 253px;
     bottom: 291px;
@@ -370,7 +367,7 @@
     height: 52px;
     left: 0;
     right: -807px;
-    top: 150px;
+    top: 180px;
     bottom: -253px;
     color: rgb(255, 255, 255);
     font-family: Roboto;
@@ -510,42 +507,6 @@ text-align: center;
     text-align: center;
 }
 
-/* Swaper */
-.swiper{
-    position: absolute;
-    width: 1440px;
-    height: 559px;
-    left: 0;
-    right: 0;
-    top: 4025px;
-    bottom: 689px;
-}
-
-.swiper-slide{
-    background-color: white;
-    text-align: center;
-    font-size: 18px;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img{
-    width: 58%;
-    object-fit: cover;
-}
-
-.swiper-button-next, .swiper-rtl .swiper-button-prev{
-    right: 140px !important; 
-    left: auto;
-}
-
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: 140px !important; 
-    right: auto;
-}
-
 /* listya and ect */
 .right-list-us{
     position: absolute;
@@ -595,7 +556,7 @@ text-align: center;
     position: absolute;
     width: 696px;
     height: 160px;
-    left: 720px;
+    left: 615px;
     right: 372px;
     top: 4750px;
     bottom: 413px;
@@ -668,5 +629,251 @@ text-align: center;
     background: rgb(254, 214, 50);
 }
 
+.ruki-slomay{
+    width: 1440px;
+    height: 470px;
+}
 
-/* @media */
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media(max-width: 480px){
+    body{
+        width: 390px;
+        height: 6000px;
+    }
+
+    .textbody{
+        width: 350px;
+        height: 377px;
+        left: 46px;
+        right: 46px;
+        top: 800px;
+        bottom: 4448px;
+        font-size: 20px;
+    }
+
+    .yellow-left-txt{
+        width: 194.44px;
+        height: 182.37px;
+        left: -80px;
+        right: -56.6px;
+        top: 621px;
+        bottom: -621px;
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    .right-list-us{
+        width: 130.1px;
+        height: 131.07px;
+        left: 480px;
+        right: -46.8px;
+        top: -2100px;
+        bottom: 4194.36px;
+    }
+
+    .img_housetorg{
+        display: none;
+    }
+
+    .housetorg{
+        width: 430px;
+        height: 842px;
+        left: 0;
+        right: 0;
+        top: 1332px;
+        bottom: 3506px;
+        overflow: hidden;
+    }
+
+    .txthousetorg{
+        left: 0;
+        top: 0;
+    }
+
+    .housetorg h1{
+        top: 50px;
+        left: 30px;
+        width: 300px;
+        height: 78px;
+        font-size: 28px;
+    }
+
+    .h3{
+        width: 298px;
+        height: 156px;
+        font-size: 16px;
+        left: 30px;
+        top: 150px;
+    }
+
+    .green-list-down{
+        display: none
+    }
+
+    .list-shater{
+        width: 143.98px;
+        height: 145.06px;
+        left: -56.45px;
+        right: 161.47px;
+        top: 1800px;
+        bottom: 1590.25px;
+        transform: rotate(280deg);
+        z-index: 1;
+    }
+
+    .shater{
+        width: 390px;
+        height: 843px;
+    }
+
+    .besedka{
+        width: 430px;
+        height: 807px;
+        top: 3000px;
+        overflow: hidden;
+    }
+
+    .img_besed{
+        display: none;
+    }
+
+    .h3_1{
+        width: 298px;
+        height: 78px;
+        font-size: 16px;
+        left: 30px;
+        top: 330px;
+    }
+
+    .txt-shater{
+        top: 0;
+        left: 0;
+    }
+
+    .txt-shater h1{
+        width: 280px;
+        height: 78px;
+        font-size: 28px;
+        top: 300px;
+        left: 50px;
+    }
+
+    .h3-shater{
+        width: 298px;
+        height: 104px;
+        font-size: 16px;
+        top: 400px;
+        left: 50px;
+    }
+
+    .h3_shater{
+        width: 298px;
+        height: 52px;
+        font-size: 16px;
+        top: 525px;
+        left: 50px;
+    }
+
+    .img5{
+        width: 390px;
+        height: 259px;
+        top: 700px;
+        left: 18px;
+    }
+
+    .ikons{
+        left: 210px;
+        top: 640px;
+        flex-direction: column;
+        gap: 120px;
+    }
+
+    .why h1{
+        width: 320px;
+        height: 78px;
+        left: 25px;
+        top: 330px;
+    }
+
+    .txt-besed{
+        left: 0;
+        top: 40px;
+    }
+
+    .txt-besed h1{
+        width: 280px;
+        height: 39px;
+        top: 0;
+        left: 50px;
+        font-size: 28px;
+    }
+
+    .besed-txt{
+        width: 298px;
+        height: 104px;
+        font-size: 16px;
+        left: 50px;
+        top: 65px;
+    }
+
+    .besed_txt{
+        width: 298px;
+        height: 52px;
+        font-size: 16px;
+        left: 50px;
+        top: 185px;
+    }
+
+    .yellow-right-besed{
+        display: none;
+    }
+
+    .yellow-up-us{
+        display: none;
+    }
+
+    .listya-down{
+        width: 130.74px;
+        height: 125.84px;
+    }
+
+    .send-whatsapp{
+        width: 358px;
+        height: 149px;
+        left: 16px;
+        top: 5140px
+    }
+
+    .send-whatsapp h2{
+        width: 358px;
+        height: 87px;
+        left: 15px;
+        top: 50px;
+        font-size: 18px;
+    }
+
+    .btn-whats{
+        width: 217px;
+        height: 42px;
+        left: 85px;
+    }
+}
