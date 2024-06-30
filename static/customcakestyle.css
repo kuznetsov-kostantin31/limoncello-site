@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-body {
+body,html {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	user-select: none;
+	-webkit-user-drag: none;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
 
 }
+
 main {
 	height: 1610px;
+	padding: 0;
 	margin: 0 auto;
 }
+
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -50,7 +58,7 @@ h2 {
 .box{
 	position: relative;
     bottom: 300px;
-    
+
 	margin: 0 auto;
 	width: 557px;
 	height: 233px;
@@ -64,7 +72,7 @@ h2 {
 }
 
 .box_1{
-  
+
   width: 431px;
   height: 484px;
 }
@@ -122,20 +130,11 @@ h2 {
 .blackout{
 	display: none;
 }
-/*Лого*/
-.logo {
-	width: 111px;
-	height: 56px;
-    z-index: 1;
-	margin-left: 70px;
-	margin-top: 17px;
-	margin-bottom: 17px;
-}
 /*Картинки*/
 .cake{
 	position: absolute;
 	left: -1%;
-	bottom: 21%;
+	bottom: 20%;
 	z-index: -2;
 }
 .cake_1{
@@ -253,6 +252,7 @@ h2 {
 	text-align: center;
 	border: 1px solid rgb(254, 214, 50);
 	border-radius: 3px;
+	z-index: 2;
 }
 .icon {
 	width: 24px;
@@ -286,9 +286,6 @@ h2 {
 .btn_w:hover{
 	border: 1px solid black;
 }
-.logo:hover {
-	background-color: rgb(160, 160, 160);
-}
 
 
 .btn_2:active{
@@ -297,6 +294,7 @@ h2 {
 .btn_4:active{
 	background-color:  rgb(254, 214, 50);
 }
+
 @media(max-width: 1820px){
 	main{
 		height: 1600px;
@@ -310,7 +308,7 @@ h2 {
     }
 	.vector{
 		left: 90%;
-	} 
+	}
 }
 @media(max-width: 1600px){
 	.box{
@@ -378,7 +376,7 @@ h2 {
 		top: 0px;
 		position: absolute;
 		display: block;
-		height: 757px;
+		height: 737px;
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.628);
 	}
@@ -410,8 +408,8 @@ h2 {
 		margin-right: 10%;
 		height: 1000px;
     }
-    
-  
+
+
 }
 @media(max-width:800px){
 	.box{
@@ -445,28 +443,123 @@ h2 {
 		position: relative;
 		top: 110%;
 	}
-  
+
 }
 @media(max-width: 650px){
 	.content_1{
 		margin-left: -15%;
 		height: 1000px;
     }
-    
+
 }
 @media(max-width: 550px){
 	.content_1{
 		margin-left: -20%;
 		height: 1000px;
     }
-    
+
 }
 @media(max-width: 500px){
 	.content_1{
 		margin-left: -25%;
 		height: 1000px;
     }
-    
+	.vector1{
+		display: none;
+	}
+
 }
+@media(max-width: 390px){
 
+	.green2{
+		display: none;
+	}
+	main{
+		overflow-x: hidden;
+		height:2200px;
+		width: 390px;
+	}
+	.ygen{
+		display: none;
+	}
+	h2{
+		font-size: 27px;
 
+	}
+	.box_1_1{
+		left: -18%;
+		top: -7%;
+		font-size: 20px;
+	}
+	.box{
+		position: absolute;
+		top: -200px;
+		left: -5%;
+	}
+	.box_11{
+		width: 300px;
+	}
+	.cake{
+		position: absolute;
+		top: -550px;
+	}
+	.logo{
+		display: none;
+	}
+	.logoo{
+		display: block;
+	}
+	    .cake_1{
+    	position: absolute;
+    	bottom: 0%;
+		left: 0%;
+    	width: 360px;
+    	height: 507px;
+    }
+	.content{
+		top: 20%;
+	}
+	.content_1{
+		top: 35%;
+	}
+	.font_size{
+	position: relative;
+	font-size: 28px;
+	width: 328px;
+	left: 7%;
+	top: -15%;
+    }
+	.font{
+		width: 320px;
+		position: relative;
+		top: -15%;
+		left: 7%;
+	}
+	.green9{
+		display: none;
+	}
+	.D{
+		display: none;
+	}
+	.disc{
+		display: none;
+	}
+	.text_1{
+		width: 328px;
+	}
+	.text_2{
+		width: 328px;
+	}
+	.btn_w{
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	.B4{
+		position: relative;
+		top: -100px;
+	}
+	.blackout{
+		height: 736px;
+	}
+
+}

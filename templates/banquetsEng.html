@@ -59,12 +59,12 @@
             <a href="#"><img src="../static/img/banquets/header/logoWhite.svg" alt="logoWhite"></a>
         </div>
         <div class="menu">
-            <a href="{% url 'main' %}" class="Rest" style="font-size: 18px">О ресторане</a>
-            <a href="{% url 'menu' %}" class="Men" style="font-size: 18px">Меню</a>
-            <a href="{% url 'banquets' %}" class="Banq" style="font-size: 18px">Банкеты</a>
-            <a href="{% url 'customcake' %}" class="Cakes" style="font-size: 18px">Торты на заказ</a>
-            <a href="#contacts" class="Contact" style="font-size: 18px">Контакты</a>
-            <a href="{% url 'contact' %}" class="Feedback" style="font-size: 18px">Обратная связь</a>
+            <a href="{% url 'mainEng' %}" class="Rest" style="font-size: 18px">About us</a>
+            <a href="{% url 'menu' %}" class="Men" style="font-size: 18px">Menu</a>
+            <a href="{% url 'banquetsEng' %}" class="Banq" style="font-size: 18px">Banquets</a>
+            <a href="{% url 'customcakeEng' %}" class="Cakes" style="font-size: 18px">Custom cake</a>
+            <a href="#contacts" class="Contact" style="font-size: 18px">Contact</a>
+            <a href="{% url 'contactEng' %}" class="Feedback" style="font-size: 18px">Feedback</a>
         </div>
         <div class="social">
             <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
@@ -75,7 +75,7 @@
                     <img src="../static/img/arrow.svg" class="btn">
                 </div>
                 <div class="russ">
-                    <a href="{% url 'banquetsEng' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
+                    <a href="{% url 'banquets' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
                 </div>
             </div>
         </div>
@@ -207,10 +207,10 @@
             <a href="#"><img src="../static/img/banquets/header/logo.svg" alt="logo"></a>
         </div>
         <div class="fmenu">
-            <a href="{% url 'main' %}" class="fRest">About us</a>
+            <a href="{% url 'mainEng' %}" class="fRest">About us</a>
             <a href="{% url 'menu' %}" class="fMen">Menu</a>
-            <a href="{% url 'banquets' %}" class="fBanq">Banquets</a>
-            <a href="{% url 'contact' %}" class="fConct">Contact</a>
+            <a href="{% url 'banquetsEng' %}" class="fBanq">Banquets</a>
+            <a href="{% url 'contactEng' %}" class="fConct">Contact</a>
         </div>
         <a href="#" class="fbtn">
             <h1>Feedback</h1>

@@ -11,19 +11,19 @@
     <title>LIMONCELLO</title>
 </head>
 <body>
-<header>
-        <img class="logo" src="../static/img/Union.svg" alt="logo">
+ <header>
+        <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
 
-        <div class="head">
-            <a href="{% url 'mainEng' %}"><div class="btn a font_Robot">About us</div></a>
-            <a href="{% url 'menu' %}"><div class="btn b font_Robot">Menu</div></a>
-            <a href="{% url 'banquetsEng' %}"><div class="btn c font_Robot">Banquets</div></a>
-            <a href="{% url 'customcakeEng' %}"><div class="btn d font_Robot">Custom cakes</div></a>
+        <div class="head gg">
+            <a href="{% url 'mainEng' %}"><div class="btn a A1 font_Robot">About us</div></a>
+            <a href="{% url 'menu' %}"><div class="btn b B1 font_Robot">Menu</div></a>
+            <a href="{% url 'banquetsEng' %}"><div class="btn c C1 font_Robot">Banquets</div></a>
+            <a href="{% url 'customcakeEng' %}"><div class="btn d D1 font_Robot">Custom cakes</div></a>
             <a href="#contacts"><div class="btn e font_Robot">Contacts</div></a>
-            <a href="{% url 'contactEng' %}"><div class="btn f font_Robot">Feedback</div></a>
+            <a href="{% url 'contactEng' %}"><div class="btn f F1 font_Robot">Feedback</div></a>
         </div>
 
-        <div class="ikon"> 
+        <div class="ikon iii"> 
             <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
             <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
             <div class="language">
@@ -32,13 +32,63 @@
                     <img src="../static/img/arrow.svg" class="btn">
                 </div>
                 <div class="russ">
-                    <a href="{% url 'main' %}"><img src="../static/img/language.svg" class="btn icon rus"></a>
+                    <a href="{% url 'contact' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
                 </div> 
             </div>
         </div>
 
         <img class="yge" src="../static/img/yellow graphic element.svg" alt="yellow">
+        
+       <div class="panel" id="panel">
+           <img class="panel" id="panel" src="../static/img/free line.svg" alt="line">
+           <div id="hidden_panel">
+                <div class="black_window"></div>
+                <img class="x" src="../static/img/x.svg" alt="x">
+                <div class="head">
+                    <a href="{% url 'mainEng' %}"><div class="btn a A1 font_Robot">About us</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b B1 font_Robot">Menu</div></a>
+                    <a href="{% url 'banquetsEng' %}"><div class="btn c C1 font_Robot">Banquets</div></a>
+                    <a href="{% url 'customcakeEng' %}"><div class="btn d D1 font_Robot">Custom cakes</div></a>
+                    <a href="#contacts"><div class="btn e font_Robot">Contacts</div></a>
+                    <a href="{% url 'contactEng' %}"><div class="btn f F1 font_Robot">Feedback</div></a>
+                </div>
+                <div class="ikon"> 
+                    <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
+                    <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
+                    <div class="language">
+                        <img src="../static/img/rus.svg" class="btn icon">
+                            <div class="arr">
+                                <img src="../static/img/arrow.svg" class="btn">
+                            </div>
+                            <div class="russ">
+                                <a href="{% url 'main' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
+                            </div> 
+                    </div>
+                </div>
+                <div class="block_5">
+                    <div class="address">
+                        <div class="color font_Robot"><p>Address</p></div>
+                        <h4 class="font_Robot rrr">8, Dvenadtsataya St., Vladivostok</h4>
+                    </div>
+                    <div class="number">
+                        <div class="color font_Robot"><p>Phone number</p></div>
+                        <h4 class="font_Robot rrr">8 (914) 707-34-43</h4>
+                    </div>
+                    <div class="work_mode">
+                        <div class="color font_Robot"><p>Operating mode</p></div>
+                        <h4 class="font_Robot rrr">Daily 11:00 - 23:00</h4>
+                    </div>
+                </div>
+           </div>
+       </div>
+      
+</div>
+
 </header>
+
+
+
+
 
         <main>
     
@@ -49,7 +99,7 @@
                     <div class="cont_2"><p></p>Enjoy traditional Italian cuisine with a modern twist</div>
                         <div class="block_1_1">
                             <a href="https://wa.me/79147073443"><div class="btn_1 font_Robot"><p>Book a table</p></div></a>
-                            <a href="{% url 'menu' %}"><div class="btn_2 font_Robot"><p>Check the menu</p></div></a>
+                            <a href="{% url 'menu' %}"><div class="btn_222 font_Robot"><p>Check the menu</p></div></a>
                         </div>
                     </div>
                 <img class="pizza" src="../static/img/pizza image.svg" alt="pizza">
@@ -76,10 +126,10 @@
     
             <div class="content_3">
                 <div class="block_3">
-                    <h3 class="font_NotoSans">Respecting traditions</h3>
-                        <h4 class="font_Robot text_lar">We are proud to use an authentic Italian wood-fired Morello Forni oven to cook every pizza. A true symbol of Italian culinary tradition combined with the skill of our pizzaiolos helps to create the unique aroma and bright taste of pizza with genuine Italian quality
+                    <h3 class="syt">Respecting traditions</h3>
+                        <h4 class="font_Robot text_lar1">We are proud to use an authentic Italian wood-fired Morello Forni oven to cook every pizza. A true symbol of Italian culinary tradition combined with the skill of our pizzaiolos helps to create the unique aroma and bright taste of pizza with genuine Italian quality
                         </h4>
-                     <a href="{% url 'menu' %}"><div class="btn_2 font_Robot"><p>Check the menu</p></div></a>
+                     <a href="{% url 'menu' %}"><div class="btn_22 font_Robot"><p>Check the menu</p></div></a>
                 </div>
                 <img class="yge2" src="../static/img/yellow graphic element .svg" alt="yellow2">
                 <img class="pizza_oven" src="../static/img/pizza oven image.svg" alt="pizza oven">
@@ -91,15 +141,15 @@
                 <img class="couple" src="../static/img/couple image.svg" alt="couple">
                 <img class="green4" src="../static/img/green leaf element(3).svg" alt="green4">
                 <div class="block_4">
-                    <h3 class="font_NotoSans">Vacation in comfort</h3>
-                        <h4 class="font_Robot text_lar">Limoncello is located on the territory of the hotel and restaurant complex Aurora Park Hotel, surrounded by a picturesque park area, which is ideal for family outings. For our young guests we offer a spacious playroom and two playgrounds, and for relaxing on warm summer days we have a cozy outdoor terrace
+                    <h3 class="otd">Vacation in comfort</h3>
+                        <h4 class="font_Robot text_lar2">Limoncello is located on the territory of the hotel and restaurant complex Aurora Park Hotel, surrounded by a picturesque park area, which is ideal for family outings. For our young guests we offer a spacious playroom and two playgrounds, and for relaxing on warm summer days we have a cozy outdoor terrace
                         </h4>
-                    <a href="https://wa.me/79147073443"><div class="btn_3 font_Robot"><p>Book a table</p></div></a>
+                    <a href="https://wa.me/79147073443"><div class="btn_33 font_Robot"><p>Book a table</p></div></a>
                 </div>
             </div>
     
             <div class="content_5" id="contacts">
-                <div class="block_5">
+                <div class="block_55">
                     <h3 class="jd">We look forward to your visit!</h3>
                     <div class="address">
                         <div class="color font_Robot"><p>Address</p></div>
@@ -114,14 +164,15 @@
                         <h4 class="font_Robot">Daily 11:00 - 23:00</h4>
                     </div>
                 </div>
-    
-                <div class="map" style="position:relative;overflow:hidden;">
+                <img class="green87" src="../static/img/greensss.svg" alt="greensss">
+                <img class="green78" src="../static/img/green leaf element(5).svg" alt="green5">
+                <div class="map" style="position:absolute;overflow:visible;">
                     <a href="https://yandex.ru/maps/org/limoncello/1718787308/?utm_medium=mapframe&utm_source=maps"
                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Limoncello</a>
                     <a href="https://yandex.ru/maps/75/vladivostok/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps"
-                       style="color:#eee;font-size:12px;position:absolute;top:14px;">Restaurant in Vladivostok</a>
+                       style="color:#eee;font-size:12px;position:absolute;top:14px;">Ресторан во Владивостоке</a>
                     <a href="https://yandex.ru/maps/75/vladivostok/category/banquet_hall/184108315/?utm_medium=mapframe&utm_source=maps"
-                       style="color:#eee;font-size:12px;position:absolute;top:28px;">Banquet hall in Vladivostok</a>
+                       style="color:#eee;font-size:12px;position:absolute;top:28px;">Банкетный зал во Владивостоке</a>
                     <iframe src="https://yandex.ru/map-widget/v1/org/limoncello/1718787308/?ll=131.978182%2C43.225307&z=17"
                         width="560" height="400" frameborder="1" allowfullscreen="true"
                             style="position:relative;"></iframe>
@@ -134,14 +185,13 @@
 
         <div class="content_6">
             <div class="hrr"><hr>
-            <img class="logo" src="../static/img/Union.svg" alt="Union">
+            <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
                 <div class="box_4">
-                    <a href="{% url 'mainEng' %}"><div class="btn a font_Robot">About us</div></a>
-                    <a href="{% url 'menu' %}"><div class="btn b font_Robot">Menu</div></a>
-                    <a href="{% url 'banquetsEng' %}"><div class="btn c font_Robot">Banquets</div></a>
-                    <a href="{% url 'customcakeEng' %}"><div class="btn d font_Robot">Custom cakes</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b B BB font_Robot">Menu</div></a>
+                    <a href="{% url 'customcakeEng' %}"><div class="btn d D DD font_Robot">Custom cakes</div></a>
+                    <a href="{% url 'banquetsEng' %}"><div class="btn c C CC font_Robot">Banquets</div></a>
                 </div>
-                <a href="{% url 'contactEng' %}"><div class="btn_4 font_Robot"><p>Feedback</p></div></a>
+                <a href="{% url 'contactEng' %}"><div class="btn_4 B4 font_Robot"><p>Feedback</p></div></a>
             </div>
         </div>
 

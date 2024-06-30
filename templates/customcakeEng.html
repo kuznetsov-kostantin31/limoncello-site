@@ -12,19 +12,19 @@
 </head>
 <body>
 
-<header>
-        <a href="{% url 'mainEng' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
+ <header>
+        <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
 
-               <div class="head">
-            <a href="{% url 'mainEng' %}"><div class="btn a font_Robot">About us</div></a>
-            <a href="https://drive.google.com/file/d/1SC3J-VhzwFANTSJt9XqQ_kT_m7XCBkWi/view"><div class="btn b font_Robot">Menu</div></a>
-            <a href="{% url 'banquetsEng' %}"><div class="btn c font_Robot">Banquets</div></a>
-            <a href="{% url 'customcakeEng' %}"><div class="btn d font_Robot">Custom cakes</div></a>
+        <div class="head gg">
+            <a href="{% url 'mainEng' %}"><div class="btn a A1 font_Robot">About us</div></a>
+            <a href="{% url 'menu' %}"><div class="btn b B1 font_Robot">Menu</div></a>
+            <a href="{% url 'banquetsEng' %}"><div class="btn c C1 font_Robot">Banquets</div></a>
+            <a href="{% url 'customcakeEng' %}"><div class="btn d D1 font_Robot">Custom cakes</div></a>
             <a href="#contacts"><div class="btn e font_Robot">Contacts</div></a>
-            <a href="{% url 'contactEng' %}"><div class="btn f font_Robot">Feedback</div></a>
+            <a href="{% url 'contactEng' %}"><div class="btn f F1 font_Robot">Feedback</div></a>
         </div>
 
-        <div class="ikon"> 
+        <div class="ikon iii"> 
             <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
             <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
             <div class="language">
@@ -33,13 +33,60 @@
                     <img src="../static/img/arrow.svg" class="btn">
                 </div>
                 <div class="russ">
-                    <a href="{% url 'customcake' %}"><img src="../static/img/language.svg" class="btn icon rus"></a>
+                    <a href="{% url 'contact' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
                 </div> 
             </div>
         </div>
 
-        <img class="yge" src="../static/img/yellow graphic element.svg" alt="yellow">
+        <img class="yge ygen" src="../static/img/yellow graphic element.svg" alt="yellow">
+        
+       <div class="panel" id="panel">
+           <img class="panel" id="panel" src="../static/img/free line.svg" alt="line">
+           <div id="hidden_panel">
+                <div class="black_window"></div>
+                <img class="x" src="../static/img/x.svg" alt="x">
+                <div class="head">
+                    <a href="{% url 'mainEng' %}"><div class="btn a A1 font_Robot">About us</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b B1 font_Robot">Menu</div></a>
+                    <a href="{% url 'banquetsEng' %}"><div class="btn c C1 font_Robot">Banquets</div></a>
+                    <a href="{% url 'customcakeEng' %}"><div class="btn d D1 font_Robot">Custom cakes</div></a>
+                    <a href="#contacts"><div class="btn e font_Robot">Contacts</div></a>
+                    <a href="{% url 'contactEng' %}"><div class="btn f F1 font_Robot">Feedback</div></a>
+                </div>
+                <div class="ikon"> 
+                    <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
+                    <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
+                    <div class="language">
+                        <img src="../static/img/rus.svg" class="btn icon">
+                            <div class="arr">
+                                <img src="../static/img/arrow.svg" class="btn">
+                            </div>
+                            <div class="russ">
+                                <a href="{% url 'contact' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
+                            </div> 
+                    </div>
+                </div>
+                <div class="block_5">
+                    <div class="address">
+                        <div class="color font_Robot"><p>Address</p></div>
+                        <h4 class="font_Robot rrr">8, Dvenadtsataya St., Vladivostok</h4>
+                    </div>
+                    <div class="number">
+                        <div class="color font_Robot"><p>Phone number</p></div>
+                        <h4 class="font_Robot rrr">8 (914) 707-34-43</h4>
+                    </div>
+                    <div class="work_mode">
+                        <div class="color font_Robot"><p>Operating mode</p></div>
+                        <h4 class="font_Robot rrr">Daily 11:00 - 23:00</h4>
+                    </div>
+                </div>
+           </div>
+       </div>
+      
+</div>
+
 </header>
+
 
 <main>
     <div class="blackout"></div>
@@ -91,12 +138,11 @@
 
         <div class="content_6">
             <div class="hrr"><hr>
-            <img class="logo" src="../static/img/Union.svg" alt="Union">
+             <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
                 <div class="box_4">
                     <a href="{% url 'mainEng' %}"><div class="btn a font_Robot">About us</div></a>
                     <a href=""><div class="btn b font_Robot">Menu</div></a>
                     <a href="{% url 'banquetsEng' %}"><div class="btn c font_Robot">Banquets</div></a>
-                    <a href="{% url 'customcakeEng' %}"><div class="btn d font_Robot">Custom cakes</div></a>
                 </div>
                 <a href="{% url 'contactEng' %}"><div class="btn_4 font_Robot"><p>Feedback</p></div></a>
             </div>

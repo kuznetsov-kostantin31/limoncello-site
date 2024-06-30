@@ -15,16 +15,16 @@
 <header>
         <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
 
-        <div class="head">
-            <a href="{% url 'main' %}"><div class="btn a font_Robot">О ресторане</div></a>
-            <a href="{% url 'menu' %}"><div class="btn b font_Robot">Меню</div></a>
-            <a href="{% url 'banquets' %}"><div class="btn c font_Robot">Банкеты</div></a>
-            <a href="{% url 'customcake' %}"><div class="btn d font_Robot">Торты на заказ</div></a>
+        <div class="head gg">
+            <a href="{% url 'main' %}"><div class="btn a A1 font_Robot">О ресторане</div></a>
+            <a href="{% url 'menu' %}"><div class="btn b B1 font_Robot">Меню</div></a>
+            <a href="{% url 'banquets' %}"><div class="btn c C1 font_Robot">Банкеты</div></a>
+            <a href="{% url 'customcake' %}"><div class="btn d D1 font_Robot">Торты на заказ</div></a>
             <a href="#contacts"><div class="btn e font_Robot">Контакты</div></a>
-            <a href="{% url 'contact' %}"><div class="btn f font_Robot">Обратная связь</div></a>
+            <a href="{% url 'contact' %}"><div class="btn f F1 font_Robot">Обратная связь</div></a>
         </div>
 
-        <div class="ikon"> 
+        <div class="ikon iii"> 
             <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
             <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
             <div class="language">
@@ -38,7 +38,53 @@
             </div>
         </div>
 
-        <img class="yge" src="../static/img/yellow graphic element.svg" alt="yellow">
+        <img class="yge ygen" src="../static/img/yellow graphic element.svg" alt="yellow">
+        
+       <div class="panel" id="panel">
+           <img class="panel" id="panel" src="../static/img/free line.svg" alt="line">
+           <div id="hidden_panel">
+                <div class="black_window"></div>
+                <img class="x" src="../static/img/x.svg" alt="x">
+                <div class="head">
+                    <a href="{% url 'main' %}"><div class="btn a A1 font_Robot">О ресторане</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b B1 font_Robot">Меню</div></a>
+                    <a href="{% url 'banquets' %}"><div class="btn c C1 font_Robot">Банкеты</div></a>
+                    <a href="{% url 'customcake' %}"><div class="btn d D1 font_Robot">Торты на заказ</div></a>
+                    <a href="#contacts"><div class="btn e font_Robot">Контакты</div></a>
+                    <a href="{% url 'contact' %}"><div class="btn f F1 font_Robot">Обратная связь</div></a>
+                </div>
+                <div class="ikon"> 
+                    <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
+                    <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon"></a>
+                    <div class="language">
+                        <img src="../static/img/language.svg" class="btn icon">
+                            <div class="arr">
+                                <img src="../static/img/arrow.svg" class="btn">
+                            </div>
+                            <div class="russ">
+                                <a href="{% url 'contactEng' %}"><img src="../static/img/rus.svg" class="btn icon rus"> </a>
+                            </div> 
+                    </div>
+                </div>
+                <div class="block_5">
+                    <div class="address">
+                        <div class="color font_Robot"><p>Адрес</p></div>
+                        <h4 class="font_Robot rrr">Владивосток, ул. Двенадцатая, 8</h4>
+                    </div>
+                    <div class="number">
+                        <div class="color font_Robot"><p>Телефон</p></div>
+                        <h4 class="font_Robot rrr">8 (914) 707-34-43</h4>
+                    </div>
+                    <div class="work_mode">
+                        <div class="color font_Robot"><p>Режим работы</p></div>
+                        <h4 class="font_Robot rrr">Ежедневно 11:00 - 23:00</h4>
+                    </div>
+                </div>
+           </div>
+       </div>
+      
+</div>
+
 </header>
 
 
@@ -59,7 +105,7 @@
                 </div>
                 </div>
             </div>
-           <img class="green7" src="/static/img/green leaf element7.svg" alt="green7">
+          
            <div class="Form">
             <form method="post">
                
@@ -103,7 +149,6 @@
                         <h4 class="font_Robot">Ежедневно 11:00 - 23:00</h4>
                     </div>
                 </div>
-                <img class="green78" src="../static/img/green leaf element(5).svg" alt="green5">
                 <div class="map" style="position:relative;overflow:hidden;">
                     <a href="https://yandex.ru/maps/org/limoncello/1718787308/?utm_medium=mapframe&utm_source=maps"
                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Limoncello</a>
@@ -112,7 +157,7 @@
                     <a href="https://yandex.ru/maps/75/vladivostok/category/banquet_hall/184108315/?utm_medium=mapframe&utm_source=maps"
                        style="color:#eee;font-size:12px;position:absolute;top:28px;">Банкетный зал во Владивостоке</a>
                     <iframe src="https://yandex.ru/map-widget/v1/org/limoncello/1718787308/?ll=131.978182%2C43.225307&z=17"
-                        width="560" height="400" frameborder="1" allowfullscreen="true"
+                        width="390" height="390" frameborder="1" allowfullscreen="true"
                             style="position:relative;"></iframe>
                 </div>
             </div>
@@ -125,12 +170,12 @@
             <div class="hrr"><hr>
             <a href="{% url 'main' %}"><img class="logo" src="../static/img/Union.svg" alt="logo"></a>
                 <div class="box_4">
-                    <a href="{% url 'main' %}"><div class="btn a font_Robot">О ресторане</div></a>
-                    <a href="{% url 'menu' %}"><div class="btn b font_Robot">Меню</div></a>
-                    <a href="{% url 'banquets' %}"><div class="btn c font_Robot">Банкеты</div></a>
-                    <a href="{% url 'customcake' %}"><div class="btn d font_Robot">Торты на заказ</div></a>
+                    <a href="{% url 'menu' %}"><div class="btn b B BB font_Robot">Меню</div></a>
+                    <a href="{% url 'customcake' %}"><div class="btn d D DD font_Robot">Торты на заказ</div></a>
+                    <a href="{% url 'banquets' %}"><div class="btn c C CC font_Robot">Банкеты</div></a>
+                   
                 </div>
-                <a href="{% url 'contact' %}"><div class="btn_4 font_Robot"><p>Обратная связь</p></div></a>
+                <a href="{% url 'contact' %}"><div class="btn_4 B4 font_Robot"><p>Обратная связь</p></div></a>
             </div>
         </div>
 
@@ -157,7 +202,7 @@
 
     
 
-<body>
+</body>
 
 
  <script src="https://unpkg.com/imask"></script>

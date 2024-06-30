@@ -1,49 +1,90 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'banquetstyle.css' %}">
-    <link rel="stylesheet" href="{% static 'header.css' %}">
-    <link rel="stylesheet" href="{% static 'footer.css' %}">
     <link rel="stylesheet" href="../static/banquets/banquetstyle.css">
     <link rel="stylesheet" href="../static/banquets/header.css">
     <link rel="stylesheet" href="../static/banquets/footer.css">
+    <link rel="stylesheet" href="../static/banquets/swiper.css">
+    <link rel="stylesheet" href="{% static 'banquetstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'header.css' %}">
+    <link rel="stylesheet" href="{% static 'footer.css' %}">
+    <link rel="stylesheet" href="{% static 'swiper.css' %}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>LIMONCELLO</title>
 </head>
 <body>
     <header>
-        <img src="../static/img/banquets/header/banq.svg" alt="banq-header" class="banq">
-        <img src="../static/img/banquets/header/line-header.svg" alt="line-header" class="line-header">
+        <div class="dark"></div>
+        <img src="../static/img/banquets/header/banq.svg" alt="banq-header" class="banqq">
+        <img src="../static/img/banquets/header/line-header.svg" alt="line-header" class="line-header" style="left: 530px">
         <img src="../static/img/banquets/header/yellow-header.png" alt="yellow-header" class="yellow-header">
 
-        <div class="logo">
+        <div class="logoo">
             <a href="#"><img src="../static/img/banquets/header/logo.svg" alt="logo"></a>
         </div>
+        
+        <div class="burger">
+            <button id="btnburger"><img src="../static/img/banquets/header/burger.svg" alt="burger"></button>
+        </div>
+
+        <div id="slide">
+            <button class="X" id="X"><img src="../static/img/banquets/header/X.svg" alt="x"></button>
+            <div class="slidemenu">
+                <a href="{% url 'main' %}" class="slideRest" style="font-size: 18px"><h1>О ресторане</h1></a>
+                <a href="{% url 'menu' %}" class="slideMen" style="font-size: 18px"><h1>Меню</h1></a>
+                <a href="{% url 'banquets' %}" class="slideBanq" style="font-size: 18px"><h1>Банкеты</h1></a>
+                <a href="{% url 'customcake' %}" class="slideCakes" style="font-size: 18px"><h1>Торты на заказ</h1></a>
+                <a href="{% url 'contact' %}" class="slideFeedback" style="font-size: 18px"><h1>Обратная связь</h1></a>
+            </div>
+            <div class="inffo">
+                <div class="adress">
+                    <h3>Адрес</h3>
+                    <h1>Владивосток, ул. Двенадцатая, 8</h1>
+                </div>
+                <div class="phonenumber">
+                    <h3>Телефон</h3>
+                    <h1>8 (914) 707-34-43</h1>
+                </div>
+                <div class="opening">
+                    <h3>Режим работы</h3>
+                    <h1>Ежедневно 11:00 - 23:00</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="logoWhite">
+            <a href="#"><img src="../static/img/banquets/header/logoWhite.svg" alt="logoWhite"></a>
+        </div>
         <div class="menu">
-            <a href="{% url 'main' %}" class="Rest">О ресторане</a>
-            <a href="https://drive.google.com/file/d/1SC3J-VhzwFANTSJt9XqQ_kT_m7XCBkWi/view" class="Men">Меню</a>
-            <a href="{% url 'banquets' %}" class="Banq">Банкеты</a>
-            <a href="{% url 'customcake' %}" class="Cakes">Торты на заказ</a>
-            <a href="https://wa.me/79147073443" class="Contact">Контакты</a>
-            <a href="{% url 'contact' %}" class="Feedback">Обратная связь</a>
+            <a href="{% url 'main' %}" class="Rest" style="font-size: 18px">О ресторане</a>
+            <a href="{% url 'menu' %}" class="Men" style="font-size: 18px">Меню</a>
+            <a href="{% url 'banquets' %}" class="Banq" style="font-size: 18px">Банкеты</a>
+            <a href="{% url 'customcake' %}" class="Cakes" style="font-size: 18px">Торты на заказ</a>
+            <a href="#contacts" class="Contact" style="font-size: 18px">Контакты</a>
+            <a href="{% url 'contact' %}" class="Feedback" style="font-size: 18px">Обратная связь</a>
         </div>
         <div class="social">
-            <a href="" class="Inst"><img src="../static/img/banquets/header/insta.svg" alt="Inst" class="Inst"></a>
-            <a href="" class="Whats"><img src="../static/img/banquets/header/whatsapp.svg" alt="Whats" class="Whats"></a>
-            <div class="Language">
-                <button class="Lang">RU&#11167;</button>
-                <button onclick="{% url 'banquetsEng' %}" class="RU">EN</button>
+            <a href="https://wa.me/79147073443"><img src="../static/img/whatsapp.svg" class="btn icon"></a>
+            <a href="https://www.instagram.com/limoncellovl/"><img src="../static/img/instagram.svg" class="btn icon" style="margin-left: 10px"></a>
+            <div class="language">
+                <img src="../static/img/rus.svg" class="btn icon">
+                <div class="arr">
+                    <img src="../static/img/arrow.svg" class="btn">
+                </div>
+                <div class="russ">
+                    <a href="{% url 'banquetsEng' %}"><img src="../static/img/language.svg" class="btn icon rus"> </a>
+                </div>
             </div>
         </div>
         <div class="txt-header">
             <h1>Ваше идеальное торжество</h1>
             <h3>с командой ресторана Limoncello</h3>
             <div class="btn2">
-                <button class="btn-left"><h1>Узнать больше</h1></button>
-                <button class="btn-right"><h1>Банкетное меню</h1></button>
+                 <a href="https://wa.me/79147073443"><button class="btn-left"><h1>Узнать больше</h1></button></a>
+                <a href="{% url 'banquets-menu' %}"><button class="btn-right"><h1>Банкетное меню</h1></button></a>
             </div>
         </div>
         <div class="listya">
@@ -51,16 +92,27 @@
             <img src="../static/img/banquets/body/list-right.svg" alt="right-list" class="right-list">
         </div>
     </header>
-
-    <h3 class="textbody">Профессиональное обслуживание и внимание к деталям – наш секрет идеального праздника. Команда ресторана Limoncello готова организовать для вас мероприятие любого масштаба – от камерных деловых встреч до масштабных свадебных торжеств. Мы предлагаем авторское меню на основе свежих и натуральных ингредиентов и несколько вариантов площадок для любой компании.</h3>
-    <img src="../static/img/banquets/body/yellow-left-txt.svg" alt="yellow-left-txt" class="yellow-left-txt">
-
+    <div class="ruki-slomay">
+         <h3 class="textbody">Профессиональное обслуживание и внимание к деталям – наш секрет идеального праздника. Команда ресторана Limoncello готова организовать для вас мероприятие любого масштаба – от камерных деловых встреч до масштабных свадебных торжеств. Мы предлагаем авторское меню на основе свежих и натуральных ингредиентов и несколько вариантов площадок для любой компании.</h3>
+        <img src="../static/img/banquets/body/yellow-left-txt.svg" alt="yellow-left-txt" class="yellow-left-txt">
+    </div>
     <div class="housetorg">
         <div class="img_housetorg">
             <img src="../static/img/banquets/body/housetorg/holl.png" alt="holl" class="img1">
             <img src="../static/img/banquets/body/housetorg/flowers.png" alt="flowers" class="img2">
             <img src="../static/img/banquets/body/housetorg/arca.png" alt="arca" class="img3">
             <img src="../static/img/banquets/body/housetorg/house.png" alt="house" class="img4">
+        </div>
+        <div class="swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../static/img/banquets/body/housetorg/holl.png"></div>
+              <div class="swiper-slide"><img src="../static/img/banquets/body/housetorg/flowers.png"></div>
+              <div class="swiper-slide"><img src="../static/img/banquets/body/housetorg/arca.png"></div>
+              <div class="swiper-slide"><img src="../static/img/banquets/body/housetorg/house.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
         <div class="txthousetorg">
             <h1>Дом торжеств Aurora hall</h1>
@@ -87,6 +139,17 @@
             <img src="../static/img/banquets/body/besedka/besed3.png" alt="besed3" class="besed3">
             <img src="../static/img/banquets/body/besedka/besed4.png" alt="besed4" class="besed4">
         </div>
+        <div class="swiper2">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../static/img/banquets/body/besedka/besed1.png"></div>
+            <div class="swiper-slide"><img src="../static/img/banquets/body/besedka/besed2.png"></div>
+            <div class="swiper-slide"><img src="../static/img/banquets/body/besedka/besed3.png"></div>
+            <div class="swiper-slide"><img src="../static/img/banquets/body/besedka/besed4.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
         <div class="txt-besed">
             <h1>Летние беседки</h1>
             <h3 class="besed-txt">Идеальное место для проведения камерных мероприятий и семейного отдыха на свежем воздухе. Летняя беседка вмещает до 15 гостей.</h3>
@@ -108,7 +171,7 @@
         <img src="../static/img/banquets/body/why_us/right-list-us.svg" alt="right-list-us" class="right-list-us">
     </div>
 
-    <div class="swiper mySwiper">
+    <div class="swiper3">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper1.jpg"></div>
           <div class="swiper-slide"><img src="../static/img/banquets/swiper/swaper2.jpg"></div>
@@ -133,9 +196,9 @@
         <img src="../static/img/banquets/body/green-list-donw-right2.svg" alt="green-list-down-right2" class="green-list-down-right2">
     </div>
 
-    <div class="send-whatsapp">
+    <div class="send-whatsapp" id="contacts">
         <h2>Задать вопрос, рассчитать стоимость или заказать мероприятие можно по номеру: 8 (914) 707-60-60</h2>
-        <button class="btn-whats"><h1>Написать в Whatsapp</h1></button>
+        <a href="https://wa.me/79147073443"><button class="btn-whats"><h1>Написать в Whatsapp</h1></button></a>
     </div>
 
     <div class="footer">
@@ -145,7 +208,7 @@
         </div>
         <div class="fmenu">
             <a href="{% url 'main' %}" class="fRest">О ресторане</a>
-            <a href="{% url 'banquets' %}" class="fMen">Меню</a>
+            <a href="{% url 'menu' %}" class="fMen">Меню</a>
             <a href="{% url 'banquets' %}" class="fBanq">Банкеты</a>
             <a href="{% url 'contact' %}" class="fConct">Контакты</a>
         </div>
@@ -156,27 +219,58 @@
             <h3 class="txt1">2016 - 2024 © Limoncello</h3>
             <a href="#" class="txt2">Политика конфиденциальности</a>
             <div class="fsocial">
-                <a href="" class="fInst"><img src="../static/img/banquets/header/insta.svg" alt="Inst" class="fInst"></a>
-                <a href="" class="fWhats"><img src="../static/img/banquets/header/whatsapp.svg" alt="Whats" class="fWhats"></a>
+                <a href="" class="fInst"><img src="../static/banquets/footer/fInst.svg" alt="Inst" class="fInst"></a>
+                <a href="" class="fWhats"><img src="../static/banquets/footer/fWhats.svg" alt="Whats" class="fWhats"></a>
             </div>
         </div>
     </div>
     
-<body>
+</body>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        keyboard: true,
+    new Swiper('.swiper1', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
     });
     
+    new Swiper('.swiper2', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    new Swiper('.swiper3', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    const toggleButton = document.getElementById('btnburger');
+    const slideBlock = document.getElementById('slide');
+    const closeButton = document.getElementById("X")
+
+    toggleButton.addEventListener('click', () => {
+        slideBlock.classList.toggle('show');
+    });
+    closeButton.addEventListener('click', () => {
+        slideBlock.classList.toggle('show');
+    });
     </script>
     <style>
         body{
@@ -185,6 +279,16 @@
             height: 5300px;
             margin: 0;
             overflow-x: hidden;
+        }
+
+        @media(max-width: 480px){
+            body{
+                position: relative;
+                width: 100%;
+                height: 5700px;
+                margin: 0;
+                overflow-x: hidden;
+            }
         }
     </style>
 </html>

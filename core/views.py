@@ -37,7 +37,7 @@ def contact(request):
             except BadHeaderError:
                 return HttpResponse('Найден некорректный заголовок')
             return redirect("main")
-    return render(request, "contact.html", {'form': form})
+    return render(request, "contact.html")
 
 
 class ContactCreate(CreateView):
@@ -95,7 +95,7 @@ def contactEng(request):
             except BadHeaderError:
                 return HttpResponse('Найден некорректный заголовок')
             return redirect("main")
-    return render(request, "contactEng.html", {'form': form})
+    return render(request, "contactEng.html")
 
 
 def menu(reqeust):
